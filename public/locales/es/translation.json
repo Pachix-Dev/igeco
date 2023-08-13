@@ -1,0 +1,19 @@
+{
+    "menu": {
+        "item_1": {
+            "title": "¿QUIÉNES SOMOS?",
+            "dropdown_1": "Nuestra historia",
+            "dropdown_2": "Acerca de Igeco",
+            "dropdown_3": "Nosotros",
+            "dropdown_4": "Áreas de experiencia",
+            "dropdown_5": "Consejo de administración"
+        },
+        "item_2": {
+            "title": "NUESTROS EVENTOS",
+            "subtitle_1": "Eventos Nacionales",
+            "subtitle_2": "Eventos Internacionales"
+        },
+        "item_3": "EVENTOS MESSE",
+        "item_4": "CONTACTO"
+    }
+}

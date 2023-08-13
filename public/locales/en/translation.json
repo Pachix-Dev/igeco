@@ -1,0 +1,19 @@
+{
+    "menu": {
+        "item_1": {
+            "title": "COMPANY",
+            "dropdown_1": "History",
+            "dropdown_2": "About Igeco",
+            "dropdown_3": "About us",
+            "dropdown_4": "Areas of expertise",
+            "dropdown_5": "Board of Directors"
+        },
+        "item_2": {
+            "title": "OUR EVENTS",
+            "subtitle_1": "Local events",
+            "subtitle_2": "International events"
+        },
+        "item_3": "MESSE EVENTS",
+        "item_4": "CONTACT"
+    }
+}
