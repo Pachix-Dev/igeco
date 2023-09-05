@@ -1,10 +1,10 @@
-import { Carousel, Col, Container, Row } from 'react-bootstrap'
+import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap'
 import './Home.css'
 export function Home () {
   return (
     <>
-      <Container>
-        <p className='text-end'>
+      <Container className='piechart-wrapper'>
+        <p className='text-end pinechart-button'>
           <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
             <img src='/img/CuatroCero.jpg' alt='cuatro cero' width={120} />
           </a>
@@ -57,7 +57,7 @@ export function Home () {
           </Carousel.Item>
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={4} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://industrialtransformation.mx/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
@@ -71,9 +71,9 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto h-100 '>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.hfmexico.mx/MEMIndustrial/' target='_blank' rel='noreferrer'>
-              <div className='h-100'>
+              <div>
                 <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
                 <div className='p-2'>
                   <h3> MEM 2024</h3>
@@ -84,7 +84,7 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.hfmexico.mx/solarpowermexico/es/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_SSM.webp' alt='Solar' className='w-100' />
@@ -97,7 +97,9 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.hfmexico.mx/solarpowermexico/es/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_ECOMONDO.webp' alt='Ecomondo' className='w-100' />
@@ -111,7 +113,7 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_AgroTech.webp' alt='Agro' className='w-100' />
@@ -125,7 +127,7 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_WSI.webp' alt='WSI' className='w-100' />
@@ -139,7 +141,9 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/americas-mobility-future/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/LOGOS-MOBILITY.webp' alt='ITM' className='w-100' />
@@ -152,7 +156,7 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/americas-mobility-future/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/VIVE-EL-VINO.webp' alt='ITM' className='w-100' />
@@ -165,7 +169,7 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={4} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/macs/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
@@ -175,6 +179,73 @@ export function Home () {
                 </div>
               </div>
             </a>
+          </Col>
+        </Row>
+      </Container>
+      <Container className='mt-5 p-5 bg-secondary'>
+        <h1 className='text-center mb-5 text-light'>Videos</h1>
+        <Row>
+          <Col>
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/Vgd9L5iemws'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
+          </Col>
+          <Col>
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/YWUJrv0bXko'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
+          </Col>
+          <Col>
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/RIoD_MLMRZ0'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
+          </Col>
+        </Row>
+        <Row className='mt-5'>
+          <Col>
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/q3zKP04Cej0'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
+          </Col>
+          <Col>
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/_API66_gvnk'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
+          </Col>
+          <Col>
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/rj6ubgIR6Do'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
           </Col>
         </Row>
       </Container>
