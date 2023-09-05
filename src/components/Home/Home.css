@@ -1,0 +1,8 @@
+.wrapper-igeco-ferias a{
+    text-decoration: none;
+    color: black;
+    text-align: center;    
+}
+.wrapper-igeco-ferias a:hover div{
+    box-shadow: 4px 4px 6px black;
+}

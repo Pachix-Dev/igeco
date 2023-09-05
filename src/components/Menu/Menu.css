@@ -84,20 +84,20 @@
     color: white;
 }
 
-.language-option {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    color: white;
+.language-dropdown {
+    color: white !important;
+    box-shadow: 4px 4px 6px black;
 }
 
-.language-option button {
-    background-color: transparent;
-    border: none;
-    font-weight: bold;
-    color: white;
+
+.language-dropdown a {
+    text-shadow: none !important;
+    padding: 3px;
 }
 
+.language-dropdown:hover svg {
+    fill: #02ff23 !important;
+}
 @media (width < 992px) {
     .igeco-menu-dropdown div {
         width: auto;
