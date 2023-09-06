@@ -8,12 +8,14 @@
             "dropdown_4": "Areas of expertise",
             "dropdown_5": "Board of Directors"
         },
-        "item_2": {
-            "title": "OUR EVENTS",
-            "subtitle_1": "Local events",
-            "subtitle_2": "International events"
-        },
-        "item_3": "MESSE EVENTS",
-        "item_4": "CONTACT"
+        "item_2": "OUR EVENTS",
+        "item_3": "Local events",
+        "item_4": "International events",            
+        "item_5": "MESSE EVENTS",
+        "item_6": "CONTACT"
+    },
+    "footer":{
+        "privacy": "Privacy Policy",
+        "contact": "Contact"
     }
 }

@@ -77,7 +77,7 @@ export function Home () {
                 <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
                 <div className='p-2'>
                   <h3> MEM 2024</h3>
-                  <p>2024<br />
+                  <p>5 - 7 de marzo 2024<br />
                     Transformación de la madera y del mueble
                   </p>
                 </div>
@@ -90,8 +90,8 @@ export function Home () {
                 <img src='/img/Logo_SSM.webp' alt='Solar' className='w-100' />
                 <div className='p-2'>
                   <h3> MEM 2024</h3>
-                  <p>2024<br />
-                    Transformación de la madera y del mueble
+                  <p>17 - 19 de abril de 2024<br />
+                    Energía solar
                   </p>
                 </div>
               </div>

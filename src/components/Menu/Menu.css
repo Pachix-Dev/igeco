@@ -14,10 +14,13 @@
 .dropdown-toggle::after {
     display: none;
 }
-
+.dropdown-menu{
+    min-width: 5rem;
+}
 .nav-item:hover .dropdown-menu {
     display: block !important;
     color: #919191;
+   
     margin: 0;
     border: none;
     border-radius: 0;
