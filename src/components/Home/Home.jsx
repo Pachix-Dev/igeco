@@ -71,6 +71,30 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://hfmexico.mx/foro-nearshoring/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/logo-nearshoring.webp' alt='Nearshoring' className='w-100' />
+                <div className='p-2'>
+                  <h3> Foro Nearshoring</h3>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.nearshoring')) }} />
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://hfmexico.mx/foro-electromovilidad/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/logo-electromovilidad.webp' alt='electromovilidad' className='w-100' />
+                <div className='p-2'>
+                  <h3> Foro Electromovilidad</h3>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.electromovilidad')) }} />
+                </div>
+              </div>
+            </a>
+          </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.hfmexico.mx/MEMIndustrial/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
@@ -92,8 +116,6 @@ export function Home () {
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.hfmexico.mx/solarpowermexico/es/' target='_blank' rel='noreferrer'>
               <div>
@@ -105,6 +127,8 @@ export function Home () {
               </div>
             </a>
           </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
               <div>
@@ -127,8 +151,6 @@ export function Home () {
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/americas-mobility-future/' target='_blank' rel='noreferrer'>
               <div>
@@ -142,6 +164,9 @@ export function Home () {
               </div>
             </a>
           </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
+
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/viveelvino/' target='_blank' rel='noreferrer'>
               <div>

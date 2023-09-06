@@ -19,12 +19,14 @@
         "contact": "Contact"
     },
     "home":{
-        "itm": "October 4 - 6 2023 Poliforum León, Guanajuato<br><br>Industry 4.0<",
+        "itm": "October 4 - 6 2023 Poliforum León, Guanajuato<br><br>Industry 4.0",
         "mem" : "March 5 - 7 2024<br>Wood and furniture processing",
         "solar": "April 17 - 19 2024<br>Solar Energy",
         "ecomondo": "April 17 - 19 2024<br>Expo Guadalajara, Guadalajara, Jalisco, México<br><br>Environmental technology platform",
         "agrotech": "May 15 - 17 2024<br>Expo Guadalajara, Guadalajara, Jalisco, México<br><br>Agroindustry",
         "wsi": "May 15 - 17 2024<br>Expo Guadalajara, Guadalajara, Jalisco, México<br><br>Fishing and aquaculture",
-        "viveelvino": "Distrito León MX (Instalaciones de la Feria de León)<br><br>Beverage and related products industry"        
+        "viveelvino": "Distrito León MX (Instalaciones de la Feria de León)<br><br>Beverage and related products industry",
+        "electromovilidad" : "Octuber 6  2023<br>Electromobility and semiconductors",
+        "nearshoring" : "Octuber 5 2023<br>Challenges and opportunities for Guanajuato"        
     }
 }
