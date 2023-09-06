@@ -1,6 +1,8 @@
 import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap'
 import './Home.css'
+import { useTranslation } from 'react-i18next'
 export function Home () {
+  const { t } = useTranslation()
   return (
     <>
       <Container className='piechart-wrapper'>
@@ -63,10 +65,7 @@ export function Home () {
                 <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
                   <h3> ITM 2023</h3>
-                  <p>4 - 6 de octubre de 2023
-                    Poliforum León, Guanajuato<br /><br />
-                    Industria 4.0
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.itm')) }} />
                 </div>
               </div>
             </a>
@@ -77,9 +76,7 @@ export function Home () {
                 <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
                 <div className='p-2'>
                   <h3> MEM 2024</h3>
-                  <p>5 - 7 de marzo 2024<br />
-                    Transformación de la madera y del mueble
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.mem')) }} />
                 </div>
               </div>
             </a>
@@ -90,9 +87,7 @@ export function Home () {
                 <img src='/img/Logo_SSM.webp' alt='Solar' className='w-100' />
                 <div className='p-2'>
                   <h3> SOLAR + STORAGE MEXICO 2024</h3>
-                  <p>17 - 19 de abril de 2024<br />
-                    Energía solar
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.solar')) }} />
                 </div>
               </div>
             </a>
@@ -105,10 +100,7 @@ export function Home () {
                 <img src='/img/Logo_ECOMONDO.webp' alt='Ecomondo' className='w-100' />
                 <div className='p-2'>
                   <h3> ECOMONDO MÉXICO 2024</h3>
-                  <p>17 - 19 de abril de 2024<br />
-                    Expo Guadalajara, Guadalajara, Jalisco, México<br /><br />
-                    Plataforma de tecnología ambiental
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.ecomondo')) }} />
                 </div>
               </div>
             </a>
@@ -119,10 +111,7 @@ export function Home () {
                 <img src='/img/Logo_AgroTech.webp' alt='Agro' className='w-100' />
                 <div className='p-2'>
                   <h3> AGROTECH MÉXICO 2024</h3>
-                  <p>15 - 17 de mayo de 2024<br />
-                    Expo Guadalajara, Guadalajara, Jalisco, México<br /><br />
-                    Agroindustria
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.agrotech')) }} />
                 </div>
               </div>
             </a>
@@ -133,10 +122,7 @@ export function Home () {
                 <img src='/img/Logo_WSI.webp' alt='WSI' className='w-100' />
                 <div className='p-2'>
                   <h3> WSI 2024</h3>
-                  <p>15 - 17 de mayo de 2024<br />
-                    Expo Guadalajara, Guadalajara, Jalisco, México<br /><br />
-                    Pesca y acuicultura
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.wsi')) }} />
                 </div>
               </div>
             </a>
@@ -162,9 +148,7 @@ export function Home () {
                 <img src='/img/VIVE-EL-VINO.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
                   <h3> VIVE EL VINO 2024</h3>
-                  <p>Distrito León MX (Instalaciones de la Feria de León)<br /><br />
-                    Industria de bebidas y productos relacionados
-                  </p>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.viveelvino')) }} />
                 </div>
               </div>
             </a>
