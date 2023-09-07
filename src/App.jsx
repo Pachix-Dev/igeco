@@ -7,6 +7,7 @@ import { Menu } from './components/Menu/Menu'
 import { Footer } from './components/Footer/Footer'
 import { Contact } from './components/Contact/Contact'
 import { History } from './components/History/History'
+import { AboutIgeco } from './components/AboutIgeco/AboutIgeco'
 
 function App () {
   const { t } = useTranslation()
@@ -46,7 +47,7 @@ function App () {
                 <title>IGECO | About Igeco</title>
                 <meta name='description' content={t('seo.description')} />
               </Helmet>
-              <History />
+              <AboutIgeco />
             </>
           }
         />
