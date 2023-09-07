@@ -6,7 +6,7 @@ import { Home } from './components/Home/Home'
 import { Menu } from './components/Menu/Menu'
 import { Footer } from './components/Footer/Footer'
 import { Contact } from './components/Contact/Contact'
-import { History } from './components/History/HIstory'
+import { History } from './components/History/History'
 
 function App () {
   const { t } = useTranslation()
