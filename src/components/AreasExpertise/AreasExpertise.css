@@ -1,0 +1,10 @@
+.parallax-areas-expertise{
+    background-image: url('/img/deutsche-messe-areas.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+.areasList li a{
+    text-decoration: none;
+    color: black;
+}

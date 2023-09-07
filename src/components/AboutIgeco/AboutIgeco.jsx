@@ -26,7 +26,7 @@ export function AboutIgeco () {
           </Col>
         </Row>
       </Container>
-      <div className='bg-light pt-5'>
+      <div className='bg-light pt-5 pb-5'>
         <Container>
           <span className='fst-italic'>{t('AboutIgeco.title')}</span>
           <h1 className='fw-bold'>ITALIAN EXHIBITION GROUP</h1>

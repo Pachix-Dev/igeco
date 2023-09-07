@@ -8,6 +8,8 @@ import { Footer } from './components/Footer/Footer'
 import { Contact } from './components/Contact/Contact'
 import { History } from './components/History/History'
 import { AboutIgeco } from './components/AboutIgeco/AboutIgeco'
+import { AboutUs } from './components/AboutUs/AboutUs'
+import { AreasExpertise } from './components/AreasExpertise/AreasExpertise'
 
 function App () {
   const { t } = useTranslation()
@@ -48,6 +50,30 @@ function App () {
                 <meta name='description' content={t('seo.description')} />
               </Helmet>
               <AboutIgeco />
+            </>
+          }
+        />
+        <Route
+          path='/about-us'
+          element={
+            <>
+              <Helmet>
+                <title>IGECO | About Igeco</title>
+                <meta name='description' content={t('seo.description')} />
+              </Helmet>
+              <AboutUs />
+            </>
+          }
+        />
+        <Route
+          path='/areas-of-expertise'
+          element={
+            <>
+              <Helmet>
+                <title>IGECO | About Igeco</title>
+                <meta name='description' content={t('seo.description')} />
+              </Helmet>
+              <AreasExpertise />
             </>
           }
         />
