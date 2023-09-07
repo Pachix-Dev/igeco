@@ -16,7 +16,7 @@ export function Menu () {
   const handleClose = () => setShow(false)
   return (
     <>
-      <Navbar expand='lg' className='igeco-menu mb-3'>
+      <Navbar expand='lg' className='igeco-menu'>
         <Container>
           <Navbar.Brand as={Link} to='/'>
             <img src='/img/igecoLogo.webp' alt='IGECO' width='300' />
@@ -36,14 +36,16 @@ export function Menu () {
                   id='offcanvasNavbarDropdown-expand-lg'
                   renderMenuOnMount disabled
                 >
-                  <NavDropdown.Item href='#action3'>{t('menu.item_1.dropdown_1')}</NavDropdown.Item>
-                  <NavDropdown.Item href='#action4'>
+                  <NavDropdown.Item as={Link} to='/history'>
+                    {t('menu.item_1.dropdown_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='/about-igeco'>
                     {t('menu.item_1.dropdown_2')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='#action5'>
+                  <NavDropdown.Item as={Link} to='/about-us'>
                     {t('menu.item_1.dropdown_3')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='#action5'>
+                  <NavDropdown.Item as={Link} to='/areas-of-expertise'>
                     {t('menu.item_1.dropdown_4')}
                   </NavDropdown.Item>
                 </NavDropdown>
