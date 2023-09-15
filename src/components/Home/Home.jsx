@@ -44,7 +44,7 @@ export function Home () {
           </Carousel.Item>
           <Carousel.Item>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
-              <img src='/img/Agro.webp' className='w-100' alt='AGROTECH' />
+              <img src='/img/Agro2.webp' className='w-100' alt='AGROTECH' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
