@@ -44,12 +44,12 @@ export function Home () {
           </Carousel.Item>
           <Carousel.Item>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
-              <img src='/img/agrotech2.webp' className='w-100' alt='AGROTECH' />
+              <img src='/img/Agro2.webp' className='w-100' alt='AGROTECH' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
             <a href='https://hfmexico.mx/worldseafood/' target='_blank' rel='noreferrer'>
-              <img src='/img/WSI2024.webp' className='w-100' alt='WSI2024' />
+              <img src='/img/KEYVISUAL AGROTECH.webp' className='w-100' alt='WSI2024' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -132,7 +132,7 @@ export function Home () {
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
               <div>
-                <img src='/img/Logo_AgroTech3.webp' alt='Agro' className='w-100' />
+                <img src='/img/Agro2.webp' alt='Agro' className='w-100' />
                 <div className='p-2'>
                   <h3> AGROTECH MÉXICO 2024</h3>
                   <p dangerouslySetInnerHTML={{ __html: (t('home.agrotech')) }} />
