@@ -8,8 +8,6 @@ export function PrivacyPolitic () {
       <p>
         <strong>Italian German Exhibition Company Mexico, S.A. de C.V.</strong><br /><br />
 
-        <strong><u>AVISO DE PRIVACIDAD</u></strong><br /><br />
-
         En virtud de que <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO, SA DE CV,</strong> es responsable de recabar y tratar datos personales que ha obtenido y/o que llegue a obtener, hemos implementado mecanismos para garantizar la seguridad de sus datos personales (los “<strong>Datos Personales</strong>”); por tal razón, hacemos el siguiente:<br /><br />
 
         <strong><u>Aviso de Privacidad</u></strong><br /><br />
