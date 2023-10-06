@@ -2,6 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import iconworld from '../../assets/MundoITM.png'
+import { Link } from 'react-router-dom'
 
 export function Footer () {
   const { t, i18n } = useTranslation()
@@ -60,7 +61,7 @@ export function Footer () {
           </div>
         </div>
         <div className='pt-5 pb-5'>
-          <a href='https://hfmexico.mx/aviso-de-privacidad/' target='_blank' rel='noreferrer'>{t('footer.privacy')}</a> | <a href='/contact'>{t('footer.contact')}</a>
+          <a href='/aviso-de-privacidad'>{t('footer.privacy')}</a> | <a href='/contact'>{t('footer.contact')}</a>
         </div>
       </Container>
     </footer>

@@ -10,6 +10,7 @@ import { History } from './components/History/History'
 import { AboutIgeco } from './components/AboutIgeco/AboutIgeco'
 import { AboutUs } from './components/AboutUs/AboutUs'
 import { AreasExpertise } from './components/AreasExpertise/AreasExpertise'
+import { PrivacyPolitic } from './components/PrivacyPolitic/PrivacyPolitic'
 
 function App () {
   const { t } = useTranslation()
@@ -86,6 +87,18 @@ function App () {
                 <meta name='description' content={t('seo.description')} />
               </Helmet>
               <Contact />
+            </>
+          }
+        />
+        <Route
+          path='/aviso-de-privacidad'
+          element={
+            <>
+              <Helmet>
+                <title>IGECO | Aviso de privacidad</title>
+                <meta name='description' content={t('seo.description')} />
+              </Helmet>
+              <PrivacyPolitic />
             </>
           }
         />
