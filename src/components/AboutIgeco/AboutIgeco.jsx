@@ -10,7 +10,7 @@ export function AboutIgeco () {
           <Col>
             <span className='fst-italic'>{t('AboutIgeco.title')}</span>
             <h1 className='fw-bold'>DEUTSCHE MESSE</h1>
-            <p dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_deutsche')) }} />
+            <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_deutsche')) }} />
           </Col>
           <Col>
             <Figure>
@@ -31,24 +31,24 @@ export function AboutIgeco () {
           <span className='fst-italic'>{t('AboutIgeco.title')}</span>
           <h1 className='fw-bold'>ITALIAN EXHIBITION GROUP</h1>
           <Row>
-            <Col>
+            <Col md className='my-auto'>
               <img src='/img/event.webp' alt='event igeco' className='w-100' />
             </Col>
-            <Col>
-              <p dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_igeco')) }} />
+            <Col md>
+              <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_igeco')) }} />
             </Col>
           </Row>
         </Container>
       </div>
       <Container className='mt-5'>
         <h1 className='text-uppercase fw-bold'>{t('AboutIgeco.title')} ITALIAN GERMAN EXHIBITION COMPANY MÉXICO</h1>
-        <p>{t('AboutIgeco.text_igeco_2')}</p>
+        <p style={{ textAlign: 'justify' }}>{t('AboutIgeco.text_igeco_2')}</p>
         <Row className='mt-5'>
-          <Col>
-            <p>{t('AboutIgeco.text_igeco_3')}</p>
+          <Col md>
+            <p style={{ textAlign: 'justify' }}>{t('AboutIgeco.text_igeco_3')}</p>
           </Col>
-          <Col>
-            <p>{t('AboutIgeco.text_igeco_4')}</p>
+          <Col md>
+            <p style={{ textAlign: 'justify' }}>{t('AboutIgeco.text_igeco_4')}</p>
           </Col>
         </Row>
       </Container>

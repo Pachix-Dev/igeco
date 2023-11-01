@@ -39,9 +39,6 @@ export function Menu () {
                   <NavDropdown.Item as={Link} to='/history'>
                     {t('menu.item_1.dropdown_1')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/about-igeco'>
-                    {t('menu.item_1.dropdown_2')}
-                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/about-us'>
                     {t('menu.item_1.dropdown_3')}
                   </NavDropdown.Item>
