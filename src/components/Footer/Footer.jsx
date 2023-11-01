@@ -2,7 +2,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import iconworld from '../../assets/MundoITM.png'
-import { Link } from 'react-router-dom'
 
 export function Footer () {
   const { t, i18n } = useTranslation()
