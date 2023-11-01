@@ -86,26 +86,26 @@ export function Menu () {
                       <NavDropdown.Item href='https://www.hannovermesse.de/en/' target='_blank' onClick={handleClose}>
                         Hannover Messe
                       </NavDropdown.Item>
-                      <NavDropdown.Item href='https://www.ligna.de/en/' target='_blank' onClick={handleClose}>
-                        Ligna
-                      </NavDropdown.Item>
-                      <NavDropdown.Item href='https://www.surface-technology-germany.de/en/' target='_blank' onClick={handleClose}>
-                        Surface Technology Germany
-                      </NavDropdown.Item>
-                      <NavDropdown.Item href='https://www.domotex.de/en/' target='_blank' onClick={handleClose}>
-                        Domotex
-                      </NavDropdown.Item>
-                      <NavDropdown.Item href=' https://futureagexpo.com.au/' target='_blank' onClick={handleClose}>
-                        FutureAg
+                      <NavDropdown.Item href='https://electricitytransformation.ca/' target='_blank' onClick={handleClose}>
+                        Electricity Transformation Canada
                       </NavDropdown.Item>
                       <NavDropdown.Item href='https://cematseasia.com/' target='_blank' onClick={handleClose}>
                         CeMAT South East Asia
                       </NavDropdown.Item>
-                      <NavDropdown.Item href='https://intralogistica-italia.com/en/' target='_blank' onClick={handleClose}>
-                        INTRALOGISTICA ITALIA
+                      <NavDropdown.Item href='https://www.domotex.de/en/' target='_blank' onClick={handleClose}>
+                        Domotex
                       </NavDropdown.Item>
-                      <NavDropdown.Item href='https://www.labvolution.de/en/' target='_blank' onClick={handleClose}>
-                        LABVOLUTION
+                      <NavDropdown.Item href='https://www.interschutz.de/en/' target='_blank' onClick={handleClose}>
+                        INTERSCHUTZ
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://www.iaa-transportation.com/de' target='_blank' onClick={handleClose}>
+                        IAA TRANSPORTATION
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://www.afacconference.com.au/' target='_blank' onClick={handleClose}>
+                        AFAC
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://www.ligna.de/en/' target='_blank' onClick={handleClose}>
+                        Ligna
                       </NavDropdown.Item>
                     </Col>
                   </Row>
