@@ -3,7 +3,8 @@
 }
 
 .igeco-menu-dropdown div {
-    width: 465px;
+    width: 652px;
+    left: -228px !important;
 }
 
 .nav-link.disabled {

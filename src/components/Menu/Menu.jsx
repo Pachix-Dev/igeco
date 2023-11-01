@@ -33,7 +33,6 @@ export function Menu () {
               <Nav className='justify-content-end flex-grow-1 pe-3'>
                 <NavDropdown
                   title={t('menu.item_1.title')}
-                  id='offcanvasNavbarDropdown-expand-lg'
                   renderMenuOnMount disabled
                 >
                   <NavDropdown.Item as={Link} to='/history'>
@@ -48,7 +47,6 @@ export function Menu () {
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.item_2')}
-                  id='offcanvasNavbarDropdown-expand-lg'
                   className='igeco-menu-dropdown'
                   renderMenuOnMount disabled
                 >
@@ -90,6 +88,24 @@ export function Menu () {
                       </NavDropdown.Item>
                       <NavDropdown.Item href='https://www.ligna.de/en/' target='_blank' onClick={handleClose}>
                         Ligna
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://www.surface-technology-germany.de/en/' target='_blank' onClick={handleClose}>
+                        Surface Technology Germany
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://www.domotex.de/en/' target='_blank' onClick={handleClose}>
+                        Domotex
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href=' https://futureagexpo.com.au/' target='_blank' onClick={handleClose}>
+                        FutureAg
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://cematseasia.com/' target='_blank' onClick={handleClose}>
+                        CeMAT South East Asia
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://intralogistica-italia.com/en/' target='_blank' onClick={handleClose}>
+                        INTRALOGISTICA ITALIA
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href='https://www.labvolution.de/en/' target='_blank' onClick={handleClose}>
+                        LABVOLUTION
                       </NavDropdown.Item>
                     </Col>
                   </Row>
