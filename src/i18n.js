@@ -8,9 +8,15 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: 'es',
     interpolation: {
-      escapeValue: false // React already escapes variables.
+      escapeValue: false
+    },
+    backend: {
+      loadPath: '/locales/{{lng}}/translation.json',
+      requestOptions: {
+        cache: 'no-store'
+      }
     }
   })
 

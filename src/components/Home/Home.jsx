@@ -14,17 +14,7 @@ export function Home () {
         <Carousel>
           <Carousel.Item>
             <a href='https://industrialtransformation.mx/' target='_blank' rel='noreferrer'>
-              <img src='/img/ITM-nuevo.webp' className='w-100' alt='ITM2023' />
-            </a>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href='https://hfmexico.mx/foro-electromovilidad' target='_blank' rel='noreferrer'>
-              <img src='/img/FORO-ELECTROMOVILIDAD.webp' className='w-100' alt='FORO-ELECTROMOVILIDAD' />
-            </a>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href='https://hfmexico.mx/foro-nearshoring' target='_blank' rel='noreferrer'>
-              <img src='/img/FORO-NEARSHORING.webp' className='w-100' alt='FORO NEARSHORING' />
+              <img src='/img/ITM-2024-ES.webp' className='w-100' alt='ITM2023' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -60,52 +50,6 @@ export function Home () {
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://industrialtransformation.mx/' target='_blank' rel='noreferrer'>
-              <div>
-                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
-                <div className='p-2'>
-                  <h3> ITM 2023</h3>
-                  <p dangerouslySetInnerHTML={{ __html: (t('home.itm')) }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://hfmexico.mx/foro-nearshoring/' target='_blank' rel='noreferrer'>
-              <div>
-                <img src='/img/logo-nearshoring.webp' alt='Nearshoring' className='w-100' />
-                <div className='p-2'>
-                  <h3> Foro Nearshoring</h3>
-                  <p dangerouslySetInnerHTML={{ __html: (t('home.nearshoring')) }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://hfmexico.mx/foro-electromovilidad/' target='_blank' rel='noreferrer'>
-              <div>
-                <img src='/img/logo-electromovilidad.webp' alt='electromovilidad' className='w-100' />
-                <div className='p-2'>
-                  <h3> Foro Electromovilidad</h3>
-                  <p dangerouslySetInnerHTML={{ __html: (t('home.electromovilidad')) }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://www.hfmexico.mx/MEMIndustrial/' target='_blank' rel='noreferrer'>
-              <div>
-                <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
-                <div className='p-2'>
-                  <h3> MEM 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: (t('home.mem')) }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.hfmexico.mx/solarpowermexico/es/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_SSM.webp' alt='Solar' className='w-100' />
@@ -127,6 +71,18 @@ export function Home () {
               </div>
             </a>
           </Col>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://www.hfmexico.mx/MEMIndustrial/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
+                <div className='p-2'>
+                  <h3> MEM 2024</h3>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.mem')) }} />
+                </div>
+              </div>
+            </a>
+          </Col>
+
         </Row>
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
@@ -152,6 +108,19 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
+                <div className='p-2'>
+                  <h3> MACS 2024</h3>
+                  <p>MACS 2024</p>
+                </div>
+              </div>
+            </a>
+          </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/americas-mobility-future/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/LOGOS-MOBILITY.webp' alt='ITM' className='w-100' />
@@ -164,9 +133,6 @@ export function Home () {
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
-
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/viveelvino/' target='_blank' rel='noreferrer'>
               <div>
@@ -179,12 +145,36 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
+            <a href='https://industrialtransformation.mx/' target='_blank' rel='noreferrer'>
               <div>
-                <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
+                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
-                  <h3> MACS 2024</h3>
-                  <p>MACS 2024</p>
+                  <h3> ITM 2024</h3>
+                  <p dangerouslySetInnerHTML={{ __html: (t('home.itm')) }} />
+                </div>
+              </div>
+            </a>
+          </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://hfmexico.mx/foro-nearshoring/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/nearshoring.webp' alt='Nearshoring' className='w-100' />
+                <div className='p-2'>
+                  <h3> Foro Nearshoring</h3>
+                  <p>2024</p>
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://hfmexico.mx/foro-electromovilidad/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/electromovilidad.webp' alt='electromovilidad' className='w-100' />
+                <div className='p-2'>
+                  <h3> Foro Electromovilidad</h3>
+                  <p>2024</p>
                 </div>
               </div>
             </a>

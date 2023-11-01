@@ -41,7 +41,6 @@ export function Footer () {
               <div>
                 <p>
                   info@hfmexico.mx<br />
-                  www.hfmexico.mx
                 </p>
               </div>
             </div>
