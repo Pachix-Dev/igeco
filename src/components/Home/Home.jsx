@@ -123,7 +123,7 @@ export function Home () {
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/americas-mobility-future/' target='_blank' rel='noreferrer'>
               <div>
-                <img src='/img/LOGOS-MOBILITY.webp' alt='ITM' className='w-100' />
+                <img src='/img/logo_movility2024.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
                   <h3> AMERICAS' MOBILITY OF THE FUTURE</h3>
                   <p>2024<br />
