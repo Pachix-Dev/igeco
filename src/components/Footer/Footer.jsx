@@ -39,7 +39,7 @@ export function Footer () {
               </div>
               <div>
                 <p>
-                  info@hfmexico.mx<br />
+                  info@igeco.mx<br />
                 </p>
               </div>
             </div>
