@@ -126,7 +126,7 @@ export function Home () {
                 <img src='/img/logo_movility2024.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
                   <h3> AMERICAS' MOBILITY OF THE FUTURE</h3>
-                  <p>2024<br />
+                  <p>{t('home.mobility')}<br />
                     Monterrey, Nuevo León
                   </p>
                 </div>
