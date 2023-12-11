@@ -52,7 +52,7 @@ export function Home () {
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://www.hfmexico.mx/solarpowermexico/es/' target='_blank' rel='noreferrer'>
+            <a href='https://www.solarpowermexico.mx/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_SSM.webp' alt='Solar' className='w-100' />
                 <div className='p-2'>
