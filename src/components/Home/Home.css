@@ -8,3 +8,6 @@
     box-shadow: 4px 4px 6px black;
     height: 100%;
 }
+.modal-content{
+    background-color: transparent;    
+}
