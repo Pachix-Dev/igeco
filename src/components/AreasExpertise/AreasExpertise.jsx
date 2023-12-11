@@ -5,13 +5,13 @@ export function AreasExpertise () {
   const { t } = useTranslation()
   return (
     <Container>
-      <div class='mt-5 m-0 row'>
-        <div class=' col-md'>
+      <div className='mt-5 m-0 row'>
+        <div className=' col-md'>
           <img className='object-fit-cover h-100 w-100' src='/img/deutsche-messe-areas.webp' />
         </div>
-        <div class='bg-light p-5 col-md'>
-          <span class='fst-italic'>DEUTSCHE MESSE</span>
-          <h1 class='fw-bold'>Areas of Expertise</h1>
+        <div className='bg-light p-5 col-md'>
+          <span className='fst-italic'>DEUTSCHE MESSE</span>
+          <h1 className='fw-bold'>Areas of Expertise</h1>
           <p>{t('AreasExpertise.text')}</p>
         </div>
       </div>
