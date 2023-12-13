@@ -36,12 +36,12 @@ export function Home () {
           </Carousel.Item>
           <Carousel.Item>
             <a href='https://hfmexico.mx/agrotechmexico/' target='_blank' rel='noreferrer'>
-              <img src='/img/Agro2.webp' className='w-100' alt='AGROTECH' />
+              <img src='/img/agrotech_es.webp' className='w-100' alt='AGROTECH' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
             <a href='https://hfmexico.mx/worldseafood/' target='_blank' rel='noreferrer'>
-              <img src='/img/KEYVISUAL AGROTECH.webp' className='w-100' alt='WSI2024' />
+              <img src='/img/worldseafood_es.webp' className='w-100' alt='WSI2024' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
