@@ -78,7 +78,7 @@ export function Home () {
               <div>
                 <img src='/img/Logo_MEM.webp' alt='MEM' className='w-100' />
                 <div className='p-2'>
-                  <h3> MEM 2024</h3>
+                  <h3> MEM 2025</h3>
                   <p dangerouslySetInnerHTML={{ __html: (t('home.mem')) }} />
                 </div>
               </div>
