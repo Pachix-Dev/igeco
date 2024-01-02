@@ -1,12 +1,10 @@
 import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap'
 import './Home.css'
 import { useTranslation } from 'react-i18next'
-import { ModalNavidad } from './ModalNavidad'
 export function Home () {
   const { t } = useTranslation()
   return (
     <>
-      <ModalNavidad />
       <Container className='piechart-wrapper'>
         <p className='text-end pinechart-button'>
           <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
