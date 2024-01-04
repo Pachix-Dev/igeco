@@ -107,7 +107,7 @@ export function Home () {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          {/* <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
@@ -117,9 +117,7 @@ export function Home () {
                 </div>
               </div>
             </a>
-          </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
+  </Col> */}
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/americas-mobility-future/' target='_blank' rel='noreferrer'>
               <div>
@@ -133,6 +131,8 @@ export function Home () {
               </div>
             </a>
           </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://hfmexico.mx/viveelvino/' target='_blank' rel='noreferrer'>
               <div>
