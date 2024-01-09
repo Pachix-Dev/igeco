@@ -182,17 +182,17 @@ export function Home() {
               </div>
             </a>
           </Col>
-          {/* <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
-                  <h3> MACS 2024</h3>
-                  <p>MACS 2024</p>
+                  <h3> MACS 2025</h3>
+                  <p>MACS 2025</p>
                 </div>
               </div>
             </a>
-  </Col> */}
+          </Col>
           <Col md={3} className='mt-4 mx-auto'>
             <a
               href='https://hfmexico.mx/viveelvino/'
