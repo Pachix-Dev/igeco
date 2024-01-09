@@ -183,17 +183,6 @@ export function Home() {
             </a>
           </Col>
           <Col md={3} className='mt-4 mx-auto'>
-            <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
-              <div>
-                <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
-                <div className='p-2'>
-                  <h3> MACS 2025</h3>
-                  <p>MACS 2025</p>
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto'>
             <a
               href='https://hfmexico.mx/viveelvino/'
               target='_blank'
@@ -246,6 +235,17 @@ export function Home() {
                 <div className='p-2'>
                   <h3> ITM 2024</h3>
                   <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
+              <div>
+                <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
+                <div className='p-2'>
+                  <h3> MACS 2025</h3>
+                  <p>MACS 2025</p>
                 </div>
               </div>
             </a>
