@@ -169,7 +169,7 @@ export function Home() {
           </Col>
           <Col md={3} className='mt-4 mx-auto'>
             <a
-              href='https://hfmexico.mx/worldseafood/'
+              href='https://worldseafoodindustry.mx/'
               target='_blank'
               rel='noreferrer'
             >
