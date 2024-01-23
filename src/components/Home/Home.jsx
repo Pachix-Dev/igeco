@@ -79,7 +79,7 @@ export function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <a
-              href='https://hfmexico.mx/worldseafood/'
+              href='https://worldseafoodindustry.mx/'
               target='_blank'
               rel='noreferrer'
             >
