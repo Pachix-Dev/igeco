@@ -60,13 +60,13 @@ export function Menu() {
                       <p className='mt-2 ps-3 mb-0'>
                         <strong>{t('menu.item_3')}</strong>
                       </p>
-                      <NavDropdown.Item
+                      {/*<NavDropdown.Item
                         href='https://www.hfmexico.mx/MEMIndustrial/'
                         target='_blank'
                         onClick={handleClose}
                       >
                         MEM Industrial
-                      </NavDropdown.Item>
+                      </NavDropdown.Item>*/}
                       <NavDropdown.Item
                         href='https://www.hfmexico.mx/solarpowermexico/es/'
                         target='_blank'

@@ -25,7 +25,7 @@ export function Home() {
               />
             </a>
           </Carousel.Item>
-          <Carousel.Item>
+          {/*<Carousel.Item>
             <a
               href='https://www.hfmexico.mx/MEMIndustrial/'
               target='_blank'
@@ -37,7 +37,7 @@ export function Home() {
                 alt='MEM2024'
               />
             </a>
-          </Carousel.Item>
+          </Carousel.Item>*/}
           <Carousel.Item>
             <a
               href='https://www.hfmexico.mx/solarpowermexico/es/'
@@ -135,7 +135,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          {/*<Col md={3} className='mt-4 mx-auto'>
             <a
               href='https://www.hfmexico.mx/MEMIndustrial/'
               target='_blank'
@@ -149,7 +149,7 @@ export function Home() {
                 </div>
               </div>
             </a>
-          </Col>
+          </Col>*/}
         </Row>
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
