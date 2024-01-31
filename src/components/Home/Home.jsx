@@ -96,7 +96,11 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img src='/img/MOBILITY.webp' className='w-100' alt='MOBILITY' />
+              <img
+                src='/img/amofKeyVisualv2.webp'
+                className='w-100'
+                alt='MOBILITY'
+              />
             </a>
           </Carousel.Item>
         </Carousel>
