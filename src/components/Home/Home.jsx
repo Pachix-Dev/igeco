@@ -2,7 +2,7 @@ import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap'
 import './Home.css'
 import { useTranslation } from 'react-i18next'
 export function Home() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   return (
     <>
       <Container className='piechart-wrapper'>
@@ -18,11 +18,27 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/ITM-2024-ES.webp'
-                className='w-100'
-                alt='ITM2023'
-              />
+              {i18n.language === 'en' ? (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/ITM-2024-ENG.mp4'
+                />
+              ) : (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/ITM-2024-ESP.mp4'
+                />
+              )}
             </a>
           </Carousel.Item>
           {/*<Carousel.Item>
@@ -44,11 +60,27 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/Banner_SPM_ESP_2024.webp'
-                className='w-100'
-                alt='SOLAR2024'
-              />
+              {i18n.language === 'en' ? (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/SSM-ENG.mp4'
+                />
+              ) : (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/SSM-ESP.mp4'
+                />
+              )}
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -57,11 +89,27 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/ECOMONDO2024-espanol.webp'
-                className='w-100'
-                alt='ECOMONDO2024'
-              />
+              {i18n.language === 'en' ? (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/ECOMONDO_ENG.mp4'
+                />
+              ) : (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/ECOMONDO_ESP.mp4'
+                />
+              )}
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -70,11 +118,19 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/agrotech_es.webp'
-                className='w-100'
-                alt='AGROTECH'
-              />
+              {i18n.language === 'en' ? (
+                <img
+                  className='d-block w-100'
+                  src='/AGROTECH-BANNER-ENG.webp'
+                  alt='Agrotech Mexico 2024'
+                />
+              ) : (
+                <img
+                  className='d-block w-100'
+                  src='/AGROTECH-BANNER-ESP.webp'
+                  alt='Agrotech Mexico 2024'
+                />
+              )}
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -83,11 +139,27 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/worldseafood_es.webp'
-                className='w-100'
-                alt='WSI2024'
-              />
+              {i18n.language === 'en' ? (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/worldSefood_ENG.mp4'
+                />
+              ) : (
+                <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  src='/worldSefood_ESP.mp4'
+                />
+              )}
             </a>
           </Carousel.Item>
           <Carousel.Item>
