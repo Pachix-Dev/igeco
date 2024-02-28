@@ -164,7 +164,7 @@ export function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <a
-              href='https://hfmexico.mx/americas-mobility-future/'
+              href='https://amofexpo.igeco.mx/'
               target='_blank'
               rel='noreferrer'
             >
@@ -279,7 +279,7 @@ export function Home() {
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a
-              href='https://hfmexico.mx/americas-mobility-future/'
+              href='https://amofexpo.igeco.mx/'
               target='_blank'
               rel='noreferrer'
             >
