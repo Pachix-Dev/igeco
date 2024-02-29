@@ -89,7 +89,7 @@ export function AboutUs() {
               className='w-100 rounded-circle object-fit-cover object-position-top'
               height={300}
             />
-            <strong>Alfonso Ramirez Kampfner</strong>
+            <strong>Damian Arias Ramirez</strong>
             <p>Director Agrotech</p>
           </Col>
         </Row>
