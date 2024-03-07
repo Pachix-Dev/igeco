@@ -96,7 +96,7 @@ export function Menu() {
                         Vive el Vino
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        href='https://hfmexico.mx/americas-mobility-future/'
+                        href='https://amofexpo.igeco.mx/'
                         target='_blank'
                         onClick={handleClose}
                       >
