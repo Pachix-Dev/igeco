@@ -112,7 +112,7 @@ export function Home() {
               )}
             </a>
           </Carousel.Item>
-          <Carousel.Item>
+          {/*<Carousel.Item>
             <a
               href='https://hfmexico.mx/agrotechmexico/'
               target='_blank'
@@ -161,7 +161,7 @@ export function Home() {
                 />
               )}
             </a>
-          </Carousel.Item>
+              </Carousel.Item>*/}
           <Carousel.Item>
             <a
               href='https://amofexpo.igeco.mx/'
@@ -230,36 +230,6 @@ export function Home() {
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a
-              href='https://hfmexico.mx/agrotechmexico/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/agrotech2.webp' alt='Agro' className='w-100' />
-                <div className='p-2'>
-                  <h3> AGROTECH MÉXICO 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.agrotech') }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto'>
-            <a
-              href='https://worldseafoodindustry.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/Logo_WSI2.webp' alt='WSI' className='w-100' />
-                <div className='p-2'>
-                  <h3> WSI 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.wsi') }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto'>
-            <a
               href='https://hfmexico.mx/viveelvino/'
               target='_blank'
               rel='noreferrer'
@@ -275,8 +245,24 @@ export function Home() {
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
+
+          <Col md={3} className='mt-4 mx-auto'>
+            <a
+              href='https://industrialtransformation.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
+                <div className='p-2'>
+                  <h3> ITM 2024</h3>
+                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
+                  Léon, Guanajuato
+                  <br /> Poliforum
+                </div>
+              </div>
+            </a>
+          </Col>
           <Col md={3} className='mt-4 mx-auto'>
             <a
               href='https://amofexpo.igeco.mx/'
@@ -298,23 +284,8 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
-            <a
-              href='https://industrialtransformation.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
-                <div className='p-2'>
-                  <h3> ITM 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
-                  Léon, Guanajuato
-                  <br /> Poliforum
-                </div>
-              </div>
-            </a>
-          </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
               <div>
@@ -322,6 +293,36 @@ export function Home() {
                 <div className='p-2'>
                   <h3> MACS 2025</h3>
                   <p>MACS 2025</p>
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a
+              href='https://hfmexico.mx/agrotechmexico/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img src='/img/agrotech2.webp' alt='Agro' className='w-100' />
+                <div className='p-2'>
+                  <h3> AGROTECH MÉXICO</h3>
+                  {/*<p dangerouslySetInnerHTML={{ __html: t('home.agrotech') }} />*/}
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto'>
+            <a
+              href='https://worldseafoodindustry.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img src='/img/Logo_WSI2.webp' alt='WSI' className='w-100' />
+                <div className='p-2'>
+                  <h3> WSI</h3>
+                  {/*<p dangerouslySetInnerHTML={{ __html: t('home.wsi') }} />*/}
                 </div>
               </div>
             </a>
