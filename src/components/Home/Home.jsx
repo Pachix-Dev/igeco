@@ -230,7 +230,7 @@ export function Home() {
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a
-              href='https://hfmexico.mx/viveelvino/'
+              href='https://viveelvino.igeco.mx/'
               target='_blank'
               rel='noreferrer'
             >

@@ -89,7 +89,7 @@ export function Menu() {
                         Industrial Transformation Mexico
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        href='https://hfmexico.mx/viveelvino/'
+                        href='https://viveelvino.igeco.mx/'
                         target='_blank'
                         onClick={handleClose}
                       >
