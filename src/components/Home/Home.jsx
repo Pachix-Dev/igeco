@@ -179,7 +179,7 @@ export function Home() {
           </Carousel.Item>
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://www.solarpowermexico.mx/'
               target='_blank'
@@ -194,7 +194,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/ecomondo/'
               target='_blank'
@@ -230,7 +230,7 @@ export function Home() {
           </Col>*/}
         </Row>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://viveelvino.igeco.mx/'
               target='_blank'
@@ -248,7 +248,7 @@ export function Home() {
             </a>
           </Col>
 
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://industrialtransformation.mx/'
               target='_blank'
@@ -265,7 +265,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://amofexpo.igeco.mx/'
               target='_blank'
@@ -288,7 +288,7 @@ export function Home() {
           </Col>
         </Row>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
               <div>
                 <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
@@ -299,7 +299,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/agrotechmexico/'
               target='_blank'
@@ -314,7 +314,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://worldseafoodindustry.mx/'
               target='_blank'
@@ -331,7 +331,7 @@ export function Home() {
           </Col>
         </Row>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/foro-nearshoring/'
               target='_blank'
@@ -350,7 +350,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3} className='mt-4 mx-auto'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/foro-electromovilidad/'
               target='_blank'

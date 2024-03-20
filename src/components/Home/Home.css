@@ -4,9 +4,8 @@
     text-align: center;
        
 }
-.wrapper-igeco-ferias a:hover>div{
-    box-shadow: 4px 4px 6px black;
-    height: 100%;
+.wrapper-igeco-ferias>div:hover {
+    box-shadow: 0 3rem 3rem rgba(0,0,0,.175)!important;    
 }
 .modal-content{
     background-color: transparent;    
