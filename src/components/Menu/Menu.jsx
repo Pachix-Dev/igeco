@@ -57,7 +57,7 @@ export function Menu() {
                 >
                   <Row>
                     <Col>
-                      <p className='mt-2 ps-3 mb-0'>
+                      <p className='mt-2 ps-3 mb-4'>
                         <strong>{t('menu.item_3')}</strong>
                       </p>
                       {/*<NavDropdown.Item
@@ -125,65 +125,92 @@ export function Menu() {
                       </NavDropdown.Item>
                     </Col>
                     <Col>
-                      <p className='mt-2 ps-3 mb-0'>
+                      <p className='mt-2 ps-3 mb-4 text-center'>
                         <strong>{t('menu.item_4')}</strong>
                       </p>
-                      <NavDropdown.Item
-                        href='https://www.hannovermesse.de/en/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        Hannover Messe
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://electricitytransformation.ca/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        Electricity Transformation Canada
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://cematseasia.com/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        CeMAT South East Asia
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://www.domotex.de/en/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        Domotex
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://www.interschutz.de/en/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        INTERSCHUTZ
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://www.iaa-transportation.com/de'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        IAA TRANSPORTATION
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://www.afacconference.com.au/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        AFAC
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href='https://www.ligna.de/en/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        Ligna
-                      </NavDropdown.Item>
+                      <div className='d-sm-flex'>
+                        <div>
+                          <NavDropdown.Item
+                            href='https://www.hannovermesse.de/en/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            Hannover Messe
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://electricity-transformation.ca/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            Electricity Transformation Canada
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://cematseasia.com/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            CeMAT South East Asia
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://www.domotex.de/en/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            Domotex
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://www.interschutz.de/en/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            INTERSCHUTZ
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://www.iaa-transportation.com/de'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            IAA TRANSPORTATION
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://www.afacconference.com.au/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            AFAC
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href='https://www.ligna.de/en/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            Ligna
+                          </NavDropdown.Item>
+                        </div>
+                        <div className='italianexhibition_link'>
+                          <p>ITALIAN EXHIBITION GROUP</p>
+                          <a
+                            href='https://www.iegexpo.it/en/exhibitions'
+                            target='_blank'
+                          >
+                            {t('menu.see_more')}{' '}
+                            <svg
+                              xmlns='http://www.w3.org/2000/svg'
+                              fill='none'
+                              viewBox='0 0 24 24'
+                              strokeWidth='1.5'
+                              stroke='currentColor'
+                              width={20}
+                            >
+                              <path
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                                d='M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3'
+                              />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
                     </Col>
                   </Row>
                 </NavDropdown>

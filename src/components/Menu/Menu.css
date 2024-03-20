@@ -3,8 +3,8 @@
 }
 
 .igeco-menu-dropdown div {
-    width: 703px;
-    left: -284px !important;
+    width: max-content;
+    left: -645px !important;
 }
 
 .nav-link.disabled {
@@ -20,12 +20,11 @@
 }
 .nav-item:hover .dropdown-menu {
     display: block !important;
-    color: #919191;
-   
+    color: #919191;   
     margin: 0;
     border: none;
     border-radius: 0;
-    padding: 10px;
+    padding: 20px;
 
 }
 
@@ -102,8 +101,46 @@
 .language-dropdown:hover svg {
     fill: #02ff23 !important;
 }
+.italianexhibition_link{
+    background-image: url('/img/italianExhibition.webp');
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0 30px;
+    background-color: rgb(107,114,128, 0.5);
+    background-blend-mode: multiply;
+}
+.italianexhibition_link:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.italianexhibition_link a{
+    border: 1px solid white; 
+    text-shadow: none;   
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.italianexhibition_link a:hover{
+    background-color: white;
+    color: black;
+}
+
 @media (width < 992px) {
     .igeco-menu-dropdown div {
         width: auto;
+    }
+    .italianexhibition_link{
+        padding: 20px 20px;
     }
 }

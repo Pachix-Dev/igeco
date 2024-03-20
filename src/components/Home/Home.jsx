@@ -1,6 +1,8 @@
 import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap'
 import './Home.css'
 import { useTranslation } from 'react-i18next'
+import '@justinribeiro/lite-youtube'
+
 export function Home() {
   const { t, i18n } = useTranslation()
   return (
@@ -373,66 +375,48 @@ export function Home() {
         <h1 className='text-center mb-5 text-light'>Videos</h1>
         <Row>
           <Col>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/Vgd9L5iemws'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
-            </Ratio>
+            <lite-youtube
+              class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+              videoid='Vgd9L5iemws'
+              videotitle='SOLAR POWER MEXICO 2022'
+            ></lite-youtube>
           </Col>
           <Col>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/YWUJrv0bXko'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
-            </Ratio>
+            <lite-youtube
+              class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+              videoid='YWUJrv0bXko'
+              videotitle='Imagina un mundo sin combustibles fósiles⛽️'
+            ></lite-youtube>
           </Col>
           <Col>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/RIoD_MLMRZ0'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
-            </Ratio>
+            <lite-youtube
+              class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+              videoid='RIoD_MLMRZ0'
+              videotitle='Revive los mejores momentos de MEM 2022 - DÍA III'
+            ></lite-youtube>
           </Col>
         </Row>
         <Row className='mt-5'>
           <Col>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/q3zKP04Cej0'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
-            </Ratio>
+            <lite-youtube
+              class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+              videoid='q3zKP04Cej0'
+              videotitle='La industria vitivinícola, cervecera y de destilados🍷'
+            ></lite-youtube>
           </Col>
           <Col>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/_API66_gvnk'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
-            </Ratio>
+            <lite-youtube
+              class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+              videoid='_API66_gvnk'
+              videotitle='Lo mejor de Industrial Transformation México 2022'
+            ></lite-youtube>
           </Col>
           <Col>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/rj6ubgIR6Do'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
-            </Ratio>
+            <lite-youtube
+              class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+              videoid='rj6ubgIR6Do'
+              videotitle='ITM - The leading Industry 4.0 fair in Mexico 🌐'
+            ></lite-youtube>
           </Col>
         </Row>
       </Container>
