@@ -1,4 +1,4 @@
-import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap'
+import { Carousel, Col, Container, Row } from 'react-bootstrap'
 import './Home.css'
 import { useTranslation } from 'react-i18next'
 import '@justinribeiro/lite-youtube'
@@ -13,7 +13,7 @@ export function Home() {
             <img src='/img/CuatroCero.jpg' alt='cuatro cero' width={120} />
           </a>
         </p>
-        <Carousel>
+        <Carousel fade>
           <Carousel.Item>
             <a
               href='https://industrialtransformation.mx/'
