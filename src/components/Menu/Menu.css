@@ -115,6 +115,7 @@
     padding: 0 30px;
     background-color: rgb(107,114,128, 0.5);
     background-blend-mode: multiply;
+    transition: ease-in-out 0.3s;
 }
 .italianexhibition_link:hover{
     background-color: transparent;
