@@ -40,10 +40,7 @@ export function AboutUs() {
               height={300}
             />
             <strong>Azul Ogazón</strong>
-            <p>
-              Directora de Proyecto MEM Industrial e Industrial Transformation
-              MEXICO
-            </p>
+            <p>Deputy Manager IGECO</p>
           </Col>
           <Col md={3}>
             <img
