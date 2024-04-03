@@ -188,7 +188,10 @@ export function Menu() {
                           </NavDropdown.Item>
                         </div>
                         <div className='italianexhibition_link'>
-                          <p>ITALIAN EXHIBITION GROUP</p>
+                          <p className='text-center'>
+                            ITALIAN EXHIBITION GROUP
+                            <br /> EVENTS
+                          </p>
                           <a
                             href='https://www.iegexpo.it/en/exhibitions'
                             target='_blank'
