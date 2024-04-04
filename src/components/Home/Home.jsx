@@ -171,7 +171,7 @@ export function Home() {
               rel='noreferrer'
             >
               <img
-                src='/img/amofKeyVisualv2.webp'
+                src='/img/bannerAmof.webp'
                 className='w-100'
                 alt='MOBILITY'
               />
