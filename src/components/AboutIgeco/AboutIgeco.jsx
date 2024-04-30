@@ -42,13 +42,13 @@ export function AboutIgeco () {
       </div>
       <Container className='mt-5'>
         <h1 className='text-uppercase fw-bold'>{t('AboutIgeco.title')} ITALIAN GERMAN EXHIBITION COMPANY MÉXICO</h1>
-        <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_igeco_2')) }}  ></p>
+        <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_igeco_2'))}}  ></p>
         <Row className='mt-5'>
           <Col md>
             <p style={{ textAlign: 'justify' }}>{t('AboutIgeco.text_igeco_3')}</p>
           </Col>
           <Col md>
-            <p style={{ textAlign: 'justify' }}>{t('AboutIgeco.text_igeco_4')}</p>
+            <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: (t('AboutIgeco.text_igeco_4'))}} ></p>
           </Col>
         </Row>
       </Container>
