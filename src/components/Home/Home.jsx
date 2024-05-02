@@ -16,6 +16,19 @@ export function Home() {
         <Carousel fade>
           <Carousel.Item>
             <a
+              href='https://viveelvino.igeco.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/img/keyVisual_vivelvino.webp'
+                className='w-100'
+                alt='MOBILITY'
+              />
+            </a>
+          </Carousel.Item>
+          <Carousel.Item>
+            <a
               href='https://industrialtransformation.mx/'
               target='_blank'
               rel='noreferrer'
@@ -56,33 +69,30 @@ export function Home() {
               />
             </a>
           </Carousel.Item>*/}
+           <Carousel.Item>
+            <a
+              href='https://amofexpo.igeco.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/img/bannerAmof.webp'
+                className='w-100'
+                alt='MOBILITY'
+              />
+            </a>
+          </Carousel.Item>
           <Carousel.Item>
             <a
               href='https://www.hfmexico.mx/solarpowermexico/es/'
               target='_blank'
               rel='noreferrer'
             >
-              {i18n.language === 'en' ? (
-                <video
-                  width='100%'
-                  height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  src='/SSM-ENG.mp4'
-                />
-              ) : (
-                <video
-                  width='100%'
-                  height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  src='/SSM-ESP.mp4'
-                />
-              )}
+              <img
+                src='/img/keyvisua_re+_2025.webp'
+                className='w-100'
+                alt='MOBILITY'
+              />
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -91,27 +101,11 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              {i18n.language === 'en' ? (
-                <video
-                  width='100%'
-                  height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  src='/ECOMONDO_ENG.mp4'
-                />
-              ) : (
-                <video
-                  width='100%'
-                  height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  src='/ECOMONDO_ESP.mp4'
-                />
-              )}
+              <img
+                src='/img/keyvisual_eco_2025.webp'
+                className='w-100'
+                alt='MOBILITY'
+              />
             </a>
           </Carousel.Item>
           {/*<Carousel.Item>
@@ -164,19 +158,6 @@ export function Home() {
               )}
             </a>
               </Carousel.Item>*/}
-          <Carousel.Item>
-            <a
-              href='https://amofexpo.igeco.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src='/img/bannerAmof.webp'
-                className='w-100'
-                alt='MOBILITY'
-              />
-            </a>
-          </Carousel.Item>
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
           {/*<Col md={3} className='mt-4 mx-auto'>
