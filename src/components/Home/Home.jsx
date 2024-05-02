@@ -56,19 +56,6 @@ export function Home() {
               )}
             </a>
           </Carousel.Item>
-          {/*<Carousel.Item>
-            <a
-              href='https://www.hfmexico.mx/MEMIndustrial/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src='/img/BannerWeb_MEM2024_ESP.webp'
-                className='w-100'
-                alt='MEM2024'
-              />
-            </a>
-          </Carousel.Item>*/}
            <Carousel.Item>
             <a
               href='https://amofexpo.igeco.mx/'
@@ -108,6 +95,19 @@ export function Home() {
               />
             </a>
           </Carousel.Item>
+          {/*<Carousel.Item>
+            <a
+              href='https://www.hfmexico.mx/MEMIndustrial/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/img/BannerWeb_MEM2024_ESP.webp'
+                className='w-100'
+                alt='MEM2024'
+              />
+            </a>
+          </Carousel.Item>*/}
           {/*<Carousel.Item>
             <a
               href='https://hfmexico.mx/agrotechmexico/'
