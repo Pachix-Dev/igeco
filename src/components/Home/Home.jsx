@@ -179,40 +179,6 @@ export function Home() {
           </Carousel.Item>
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://www.solarpowermexico.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/Logo_SSM.webp' alt='Solar' className='w-100' />
-                <div className='p-2'>
-                  <h3> SOLAR + STORAGE MEXICO 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.solar') }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://hfmexico.mx/ecomondo/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img
-                  src='/img/Logo_ECOMONDO.webp'
-                  alt='Ecomondo'
-                  className='w-100'
-                />
-                <div className='p-2'>
-                  <h3> ECOMONDO MÉXICO 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.ecomondo') }} />
-                </div>
-              </div>
-            </a>
-          </Col>
           {/*<Col md={3} className='mt-4 mx-auto'>
             <a
               href='https://www.hfmexico.mx/MEMIndustrial/'
@@ -330,7 +296,7 @@ export function Home() {
             </a>
           </Col>
         </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
+        <Row className='mt-5 wrapper-igeco-ferias gap-4'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/foro-nearshoring/'
@@ -339,7 +305,7 @@ export function Home() {
             >
               <div>
                 <img
-                  src='/img/nearshoring.webp'
+                  src='/img/nearshoring_v2.webp'
                   alt='Nearshoring'
                   className='w-100'
                 />
@@ -358,13 +324,47 @@ export function Home() {
             >
               <div>
                 <img
-                  src='/img/electromovilidad.webp'
+                  src='/img/electromovilidad_v2.webp'
                   alt='electromovilidad'
                   className='w-100'
                 />
                 <div className='p-2'>
                   <h3> Foro Electromovilidad</h3>
                   <p>2024</p>
+                </div>
+              </div>
+            </a>
+          </Col>
+           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://www.solarpowermexico.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img src='/img/re+mexico_logo_v2.webp' alt='Solar' className='w-100' />
+                <div className='p-2'>
+                  <h3> RE+ MÉXICO </h3>
+                  <p dangerouslySetInnerHTML={{ __html: t('home.solar') }} />
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://hfmexico.mx/ecomondo/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img
+                  src='/img/ecomondo2025.webp'
+                  alt='Ecomondo'
+                  className='w-100'
+                />
+                <div className='p-2'>
+                  <h3> ECOMONDO MÉXICO 2025</h3>
+                  <p dangerouslySetInnerHTML={{ __html: t('home.ecomondo') }} />
                 </div>
               </div>
             </a>
