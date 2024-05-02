@@ -213,7 +213,6 @@ export function Home() {
               </div>
             </a>
           </Col>
-
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://industrialtransformation.mx/'
@@ -238,7 +237,7 @@ export function Home() {
               rel='noreferrer'
             >
               <div>
-                <img src='/img/amofIcon.webp' alt='ITM' className='w-100 p-4' />
+                <img src='/img/mobility_v2.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
                   <h3> AMERICAS' MOBILITY OF THE FUTURE</h3>
                   <p>
