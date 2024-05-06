@@ -44,17 +44,6 @@ export function AboutUs() {
           </Col>
           <Col md={3}>
             <img
-              src='/img/SANDRA-ICON.webp'
-              className='w-100 rounded-circle object-fit-cover'
-              height={300}
-            />
-            <strong>Sandra Elías</strong>
-            <p>
-              Directora de Proyecto Solar + Storage Mexico y Ecomondo Mexico
-            </p>
-          </Col>
-          <Col md={3}>
-            <img
               src='/david_montaudon.webp'
               className='w-100 rounded-circle object-fit-cover object-position-top'
               height={300}
