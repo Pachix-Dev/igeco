@@ -76,7 +76,7 @@ export function AboutUs() {
               height={300}
             />
             <strong>Damian Arias Ramirez</strong>
-            <p>Director Agrotech</p>
+            <p>Director de AMOF</p>
           </Col>
         </Row>
       </Container>
