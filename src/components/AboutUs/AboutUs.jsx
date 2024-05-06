@@ -71,7 +71,7 @@ export function AboutUs() {
           </Col>
           <Col md={3}>
             <img
-              src='/damian.webp'
+              src='/damian-arias.webp'
               className='w-100 rounded-circle object-fit-cover object-position-top'
               height={300}
             />
