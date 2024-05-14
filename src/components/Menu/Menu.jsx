@@ -60,19 +60,19 @@ export function Menu() {
                       <p className='mt-2 ps-3 mb-4'>
                         <strong>{t('menu.item_3')}</strong>
                       </p>
-                      {/*<NavDropdown.Item
+                      {/* <NavDropdown.Item
                         href='https://www.hfmexico.mx/MEMIndustrial/'
                         target='_blank'
                         onClick={handleClose}
                       >
                         MEM Industrial
-                      </NavDropdown.Item>*/}
+                      </NavDropdown.Item> */}
                       <NavDropdown.Item
                         href='https://www.hfmexico.mx/solarpowermexico/es/'
                         target='_blank'
                         onClick={handleClose}
                       >
-                        Solar + Storage Mexico
+                        RE + Mexico
                       </NavDropdown.Item>
                       <NavDropdown.Item
                         href='https://hfmexico.mx/ecomondo/'
@@ -195,6 +195,7 @@ export function Menu() {
                           <a
                             href='https://www.iegexpo.it/en/exhibitions'
                             target='_blank'
+                            rel='noreferrer'
                           >
                             {t('menu.see_more')}{' '}
                             <svg
