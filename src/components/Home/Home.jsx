@@ -56,7 +56,7 @@ export function Home() {
               )}
             </a>
           </Carousel.Item>
-           <Carousel.Item>
+          <Carousel.Item>
             <a
               href='https://amofexpo.igeco.mx/'
               target='_blank'
@@ -95,7 +95,7 @@ export function Home() {
               />
             </a>
           </Carousel.Item>
-          {/*<Carousel.Item>
+          {/* <Carousel.Item>
             <a
               href='https://www.hfmexico.mx/MEMIndustrial/'
               target='_blank'
@@ -107,8 +107,8 @@ export function Home() {
                 alt='MEM2024'
               />
             </a>
-          </Carousel.Item>*/}
-          {/*<Carousel.Item>
+          </Carousel.Item> */}
+          {/* <Carousel.Item>
             <a
               href='https://hfmexico.mx/agrotechmexico/'
               target='_blank'
@@ -157,10 +157,10 @@ export function Home() {
                 />
               )}
             </a>
-              </Carousel.Item>*/}
+              </Carousel.Item> */}
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias'>
-          {/*<Col md={3} className='mt-4 mx-auto'>
+          {/* <Col md={3} className='mt-4 mx-auto'>
             <a
               href='https://www.hfmexico.mx/MEMIndustrial/'
               target='_blank'
@@ -174,7 +174,7 @@ export function Home() {
                 </div>
               </div>
             </a>
-          </Col>*/}
+          </Col> */}
         </Row>
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
@@ -240,7 +240,7 @@ export function Home() {
                 <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
                 <div className='p-2'>
                   <h3> MACS 2025</h3>
-                  <p>MACS 2025</p>
+                  <p>próximamente 2025</p>
                 </div>
               </div>
             </a>
@@ -255,7 +255,8 @@ export function Home() {
                 <img src='/img/agrotech2.webp' alt='Agro' className='w-100' />
                 <div className='p-2'>
                   <h3> AGROTECH MÉXICO</h3>
-                  {/*<p dangerouslySetInnerHTML={{ __html: t('home.agrotech') }} />*/}
+                  <p>próximamente 2025</p>
+                  {/* <p dangerouslySetInnerHTML={{ __html: t('home.agrotech') }} /> */}
                 </div>
               </div>
             </a>
@@ -270,7 +271,8 @@ export function Home() {
                 <img src='/img/Logo_WSI2.webp' alt='WSI' className='w-100' />
                 <div className='p-2'>
                   <h3> WSI</h3>
-                  {/*<p dangerouslySetInnerHTML={{ __html: t('home.wsi') }} />*/}
+                  <p>próximamente 2025</p>
+                  {/* <p dangerouslySetInnerHTML={{ __html: t('home.wsi') }} /> */}
                 </div>
               </div>
             </a>
@@ -315,14 +317,18 @@ export function Home() {
               </div>
             </a>
           </Col>
-           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://www.solarpowermexico.mx/'
               target='_blank'
               rel='noreferrer'
             >
               <div>
-                <img src='/img/re+mexico_logo_v2.webp' alt='Solar' className='w-100' />
+                <img
+                  src='/img/re+mexico_logo_v2.webp'
+                  alt='Solar'
+                  className='w-100'
+                />
                 <div className='p-2'>
                   <h3> RE+ MÉXICO </h3>
                   <p dangerouslySetInnerHTML={{ __html: t('home.solar') }} />
@@ -359,21 +365,21 @@ export function Home() {
               class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
               videoid='Vgd9L5iemws'
               videotitle='SOLAR POWER MEXICO 2022'
-            ></lite-youtube>
+            />
           </Col>
           <Col>
             <lite-youtube
               class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
               videoid='YWUJrv0bXko'
               videotitle='Imagina un mundo sin combustibles fósiles⛽️'
-            ></lite-youtube>
+            />
           </Col>
           <Col>
             <lite-youtube
               class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
               videoid='RIoD_MLMRZ0'
               videotitle='Revive los mejores momentos de MEM 2022 - DÍA III'
-            ></lite-youtube>
+            />
           </Col>
         </Row>
         <Row className='mt-5'>
@@ -382,21 +388,21 @@ export function Home() {
               class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
               videoid='q3zKP04Cej0'
               videotitle='La industria vitivinícola, cervecera y de destilados🍷'
-            ></lite-youtube>
+            />
           </Col>
           <Col>
             <lite-youtube
               class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
               videoid='_API66_gvnk'
               videotitle='Lo mejor de Industrial Transformation México 2022'
-            ></lite-youtube>
+            />
           </Col>
           <Col>
             <lite-youtube
               class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
               videoid='rj6ubgIR6Do'
               videotitle='ITM - The leading Industry 4.0 fair in Mexico 🌐'
-            ></lite-youtube>
+            />
           </Col>
         </Row>
       </Container>
