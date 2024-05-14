@@ -138,13 +138,6 @@ export function Menu() {
                             Hannover Messe
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.iegexpo.it/en/exhibitions'
-                            target='_blank'
-                            onClick={handleClose}
-                          >
-                            ITALIAN EXHIBITION GROUP
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
                             href='https://electricity-transformation.ca/'
                             target='_blank'
                             onClick={handleClose}
