@@ -79,7 +79,7 @@ export function Menu() {
                         target='_blank'
                         onClick={handleClose}
                       >
-                        Ecomondo México
+                        Ecomondo Mexico
                       </NavDropdown.Item>
                       <NavDropdown.Item
                         href='https://industrialtransformation.mx/'
