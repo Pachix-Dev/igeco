@@ -138,6 +138,13 @@ export function Menu() {
                             Hannover Messe
                           </NavDropdown.Item>
                           <NavDropdown.Item
+                            href='https://en.ecomondo.com/'
+                            target='_blank'
+                            onClick={handleClose}
+                          >
+                            Ecomondo Rimini
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
                             href='https://electricity-transformation.ca/'
                             target='_blank'
                             onClick={handleClose}
@@ -145,39 +152,32 @@ export function Menu() {
                             Electricity Transformation Canada
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://cematseasia.com/'
+                            href='https://en.riminiwellness.com/'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            CeMAT South East Asia
+                            RiminiWellness
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.domotex.de/en/'
+                            href='https://www.ginnasticainfestarimini.it/'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            Domotex
+                            Ginnastica in Festa
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.interschutz.de/en/'
+                            href='https://www.meetingrimini.org/en/'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            INTERSCHUTZ
+                            Meeting Rimini
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.afacconference.com.au/'
+                            href='https://www.alfiobardolla.com/'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            AFAC
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href='https://www.ligna.de/en/'
-                            target='_blank'
-                            onClick={handleClose}
-                          >
-                            Ligna
+                            Alfio Bardolla WAKE UP CALL
                           </NavDropdown.Item>
                         </div>
                         <div className='italianexhibition_link'>
