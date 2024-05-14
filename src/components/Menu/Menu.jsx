@@ -72,7 +72,7 @@ export function Menu() {
                         target='_blank'
                         onClick={handleClose}
                       >
-                        RE + Mexico
+                        RE+ Mexico
                       </NavDropdown.Item>
                       <NavDropdown.Item
                         href='https://hfmexico.mx/ecomondo/'
