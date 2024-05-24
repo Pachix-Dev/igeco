@@ -259,7 +259,7 @@ export function Home() {
           </Col>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
-              href='https://re-plus-congreso.igeco.mx/'
+              href='https://re-plus-yucatan.igeco.mx/'
               target='_blank'
               rel='noreferrer'
             >
