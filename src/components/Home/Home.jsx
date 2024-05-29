@@ -201,7 +201,7 @@ export function Home() {
               rel='noreferrer'
             >
               <div>
-                <img src='/img/amof_v3.webp' alt='ITM' className='w-100' />
+                <img src='/img/amof_v4.webp' alt='ITM' className='w-100' />
                 <div className='p-3'>
                   <h3 className='fw-bold'> AMERICAS' MOBILITY OF THE FUTURE</h3>
                   <p>
