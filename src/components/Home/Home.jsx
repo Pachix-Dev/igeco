@@ -89,7 +89,7 @@ export function Home() {
               rel='noreferrer'
             >
               <img
-                src='/img/keyVisual_vivelvino.webp'
+                src='/img/keyVisual_viveVino2025.webp'
                 className='w-100'
                 alt='MOBILITY'
               />
