@@ -88,11 +88,21 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/keyVisual_viveVino2025.webp'
-                className='w-100'
-                alt='MOBILITY'
-              />
+
+
+              {i18n.language === 'es' ? (
+                <img
+                  src='/img/keyVisual_viveVino2025_es.webp'
+                  className='w-100'
+                  alt='vive el vino'
+                />
+              ) : (
+                <img
+                  src='/img/keyVisual_viveVino2025_en.webp'
+                  className='w-100'
+                  alt='vive el vino'
+                />
+              )}
             </a>
           </Carousel.Item>
           {/* <Carousel.Item>
@@ -160,7 +170,7 @@ export function Home() {
               </Carousel.Item> */}
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
-          
+
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://industrialtransformation.mx/'
@@ -262,7 +272,7 @@ export function Home() {
           </Col>
         </Row>
         <Row className="mt-5 wrapper-igeco-ferias m-2">
-          <Col md={3}  className="mt-4 mx-auto shadow-lg rounded p-0">
+          <Col md={3} className="mt-4 mx-auto shadow-lg rounded p-0">
             <a href="https://www.solarpowermexico.mx/" target="_blank" rel="noreferrer">
               <div>
                 <img src="/img/re+mexico_logo_v2.webp" alt="Solar" className="w-100" />
@@ -273,7 +283,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-          <Col md={3}  className="mt-4 mx-auto shadow-lg rounded p-0">
+          <Col md={3} className="mt-4 mx-auto shadow-lg rounded p-0">
             <a href="https://hfmexico.mx/ecomondo/" target="_blank" rel="noreferrer">
               <div>
                 <img src="/img/ecomondo2025.webp" alt="Ecomondo" className="w-100" />
