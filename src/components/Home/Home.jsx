@@ -88,8 +88,6 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-
-
               {i18n.language === 'es' ? (
                 <img
                   src='/img/keyVisual_viveVino2025_es.webp'
@@ -170,7 +168,6 @@ export function Home() {
               </Carousel.Item> */}
         </Carousel>
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
-
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://industrialtransformation.mx/'
@@ -213,38 +210,40 @@ export function Home() {
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
-              href='https://hfmexico.mx/foro-nearshoring/'
+              href='https://foro-nearshoring.igeco.mx'
               target='_blank'
               rel='noreferrer'
             >
               <div>
                 <img
-                  src='/img/nearshoring_v2.webp'
+                  src='/img/bg_nearshoring.webp'
                   alt='Nearshoring'
                   className='w-100'
+                  style={{ objectFit: 'cover', height: '300px' }}
                 />
                 <div className='p-3'>
                   <h3 className='fw-bold'> FORO NEARSHORING </h3>
-                  <p>{t("home.coming-soon")} 2024</p>
+                  <p>{t('home.coming-soon')} 2024</p>
                 </div>
               </div>
             </a>
           </Col>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
-              href='https://hfmexico.mx/foro-electromovilidad/'
+              href='https://foro-electromovilidad.igeco.mx'
               target='_blank'
               rel='noreferrer'
             >
               <div>
                 <img
-                  src='/img/electromovilidad_v2.webp'
+                  src='/img/bg_electromovilidad.webp'
                   alt='electromovilidad'
                   className='w-100'
+                  style={{ objectFit: 'cover', height: '300px' }}
                 />
                 <div className='p-3'>
                   <h4 className='fw-bold'> FORO ELECTROMOVILIDAD </h4>
-                  <p>{t("home.coming-soon")} 2024</p>
+                  <p>{t('home.coming-soon')} 2024</p>
                 </div>
               </div>
             </a>
@@ -256,9 +255,16 @@ export function Home() {
               rel='noreferrer'
             >
               <div>
-                <img src='/img/congreso_yucatan.webp' alt='ITM' className='w-100' />
+                <img
+                  src='/img/congreso_yucatan.webp'
+                  alt='ITM'
+                  className='w-100'
+                />
                 <div className='p-3'>
-                  <h4 className='fw-bold'> RE+  PENÍNSULA DE YUCATÁN {t("home.congress")}</h4>
+                  <h4 className='fw-bold'>
+                    {' '}
+                    RE+ PENÍNSULA DE YUCATÁN {t('home.congress')}
+                  </h4>
                   <p>
                     {t('home.yucatan')}
                     <br />
@@ -271,23 +277,39 @@ export function Home() {
             </a>
           </Col>
         </Row>
-        <Row className="mt-5 wrapper-igeco-ferias m-2">
-          <Col md={3} className="mt-4 mx-auto shadow-lg rounded p-0">
-            <a href="https://www.solarpowermexico.mx/" target="_blank" rel="noreferrer">
+        <Row className='mt-5 wrapper-igeco-ferias m-2'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://www.solarpowermexico.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div>
-                <img src="/img/re+mexico_logo_v2.webp" alt="Solar" className="w-100" />
-                <div className="p-2">
+                <img
+                  src='/img/re+mexico_logo_v2.webp'
+                  alt='Solar'
+                  className='w-100'
+                />
+                <div className='p-2'>
                   <h3 className='fw-bold'> RE+ MÉXICO </h3>
                   <p dangerouslySetInnerHTML={{ __html: t('home.solar') }} />
                 </div>
               </div>
             </a>
           </Col>
-          <Col md={3} className="mt-4 mx-auto shadow-lg rounded p-0">
-            <a href="https://hfmexico.mx/ecomondo/" target="_blank" rel="noreferrer">
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://hfmexico.mx/ecomondo/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div>
-                <img src="/img/ecomondo2025.webp" alt="Ecomondo" className="w-100" />
-                <div className="p-2">
+                <img
+                  src='/img/ecomondo2025.webp'
+                  alt='Ecomondo'
+                  className='w-100'
+                />
+                <div className='p-2'>
                   <h3 className='fw-bold'> ECOMONDO MÉXICO</h3>
                   <p dangerouslySetInnerHTML={{ __html: t('home.ecomondo') }} />
                 </div>
@@ -319,7 +341,7 @@ export function Home() {
                 <img src='/img/Logo_MACS.webp' alt='ITM' className='w-100' />
                 <div className='p-3'>
                   <h3 className='fw-bold'> MACS 2025</h3>
-                  <p>{t("home.coming-soon")} 2025</p>
+                  <p>{t('home.coming-soon')} 2025</p>
                 </div>
               </div>
             </a>
@@ -334,7 +356,7 @@ export function Home() {
                 <img src='/img/agrotech2.webp' alt='Agro' className='w-100' />
                 <div className='p-3'>
                   <h3 className='fw-bold'> AGROTECH MÉXICO</h3>
-                  <p>{t("home.coming-soon")} 2025</p>
+                  <p>{t('home.coming-soon')} 2025</p>
                   {/* <p dangerouslySetInnerHTML={{ __html: t('home.agrotech') }} /> */}
                 </div>
               </div>
@@ -350,7 +372,7 @@ export function Home() {
                 <img src='/img/Logo_WSI2.webp' alt='WSI' className='w-100' />
                 <div className='p-3'>
                   <h3 className='fw-bold'> WORLD SEAFOOD INDUSTRY</h3>
-                  <p>{t("home.coming-soon")} 2025</p>
+                  <p>{t('home.coming-soon')} 2025</p>
                   {/* <p dangerouslySetInnerHTML={{ __html: t('home.wsi') }} /> */}
                 </div>
               </div>
