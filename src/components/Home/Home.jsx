@@ -223,7 +223,8 @@ export function Home() {
                 />
                 <div className='p-3'>
                   <h3 className='fw-bold'> FORO NEARSHORING </h3>
-                  <p>{t('home.coming-soon')} 2024</p>
+                  <p>5 de septiembre 2024 </p>
+                  <p>Teatro Mateo Herrera, León, Gto.</p>
                 </div>
               </div>
             </a>
@@ -243,7 +244,8 @@ export function Home() {
                 />
                 <div className='p-3'>
                   <h4 className='fw-bold'> FORO ELECTROMOVILIDAD </h4>
-                  <p>{t('home.coming-soon')} 2024</p>
+                  <p>23 de septiembre 2024 </p>
+                  <p>Teatro Mateo Herrera, León, Gto.</p>
                 </div>
               </div>
             </a>
