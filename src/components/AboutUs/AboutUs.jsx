@@ -60,15 +60,9 @@ export function AboutUs() {
             <strong>Jean Christian Macias</strong>
             <p>Director Vive el Vino y Messe Events</p>
           </Col>
-          <Col md={3}>
-            <img
-              src='/alfonso.webp'
-              className='w-100 rounded-circle object-fit-cover object-position-top'
-              height={300}
-            />
-            <strong>Alfonso Ramirez Kampfner</strong>
-            <p>Director Macs </p>
-          </Col>
+
+         
+          
           <Col md={3}>
             <img
               src='/damian-arias.webp'
