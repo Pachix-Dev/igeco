@@ -60,9 +60,6 @@ export function AboutUs() {
             <strong>Jean Christian Macias</strong>
             <p>Director Vive el Vino y Messe Events</p>
           </Col>
-
-         
-          
           <Col md={3}>
             <img
               src='/damian-arias.webp'
