@@ -170,46 +170,6 @@ export function Home() {
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
-              href='https://industrialtransformation.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
-                <div className='p-3'>
-                  <h3 className='fw-bold'> ITM 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
-                  Léon, Guanajuato
-                  <br /> Poliforum
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://amofexpo.igeco.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/amof_v4.webp' alt='ITM' className='w-100' />
-                <div className='p-3'>
-                  <h3 className='fw-bold'> AMERICAS' MOBILITY OF THE FUTURE</h3>
-                  <p>
-                    {t('home.mobility')}
-                    <br />
-                    Léon, Guanajuato
-                    <br />
-                    Poliforum
-                  </p>
-                </div>
-              </div>
-            </a>
-          </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias m-2'>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
               href='https://foro-nearshoring.igeco.mx'
               target='_blank'
               rel='noreferrer'
@@ -250,36 +210,47 @@ export function Home() {
               </div>
             </a>
           </Col>
+        </Row>
+
+        <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
-              href='https://re-plus-yucatan.igeco.mx/'
+              href='https://industrialtransformation.mx/'
               target='_blank'
               rel='noreferrer'
             >
               <div>
-                <img
-                  src='/img/congreso_yucatan.webp'
-                  alt='ITM'
-                  className='w-100'
-                />
+                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
                 <div className='p-3'>
-                  <h4 className='fw-bold'>
-                    {' '}
-                    RE+ PENÍNSULA DE YUCATÁN {t('home.congress')}
-                  </h4>
+                  <h3 className='fw-bold'> ITM 2024</h3>
+                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
+                  Léon, Guanajuato
+                  <br /> Poliforum
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://amofexpo.igeco.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img src='/img/amof_v4.webp' alt='ITM' className='w-100' />
+                <div className='p-3'>
+                  <h3 className='fw-bold'> AMERICAS' MOBILITY OF THE FUTURE</h3>
                   <p>
-                    {t('home.yucatan')}
+                    {t('home.mobility')}
                     <br />
-                    Cic Yucatán
+                    Léon, Guanajuato
                     <br />
-                    Merida, Yucatán, México
+                    Poliforum
                   </p>
                 </div>
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://www.solarpowermexico.mx/'
@@ -299,6 +270,9 @@ export function Home() {
               </div>
             </a>
           </Col>
+        </Row>
+       
+        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/ecomondo/'
@@ -335,7 +309,35 @@ export function Home() {
               </div>
             </a>
           </Col>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://re-plus-yucatan.igeco.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img
+                  src='/img/congreso_yucatan.webp'
+                  alt='ITM'
+                  className='w-100'
+                />
+                <div className='p-3'>
+                  <h4 className='fw-bold'>
+                    {' '}
+                    RE+ PENÍNSULA DE YUCATÁN {t('home.congress')}
+                  </h4>
+                  <p>
+                  <p>{t('home.coming-soon')} 2025</p>
+                    Cic Yucatán
+                    <br />
+                    Merida, Yucatán, México
+                  </p>
+                </div>
+              </div>
+            </a>
+          </Col>
         </Row>
+        
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
