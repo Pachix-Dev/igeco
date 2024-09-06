@@ -167,8 +167,9 @@ export function Home() {
             </a>
               </Carousel.Item> */}
         </Carousel>
+
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+          {/* <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://foro-nearshoring.igeco.mx'
               target='_blank'
@@ -188,7 +189,10 @@ export function Home() {
                 </div>
               </div>
             </a>
-          </Col>
+          </Col> */}
+        </Row>
+
+        <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://foro-electromovilidad.igeco.mx'
@@ -210,9 +214,6 @@ export function Home() {
               </div>
             </a>
           </Col>
-        </Row>
-
-        <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://industrialtransformation.mx/'
@@ -251,6 +252,9 @@ export function Home() {
               </div>
             </a>
           </Col>
+        </Row>
+       
+        <Row className='mt-5 wrapper-igeco-ferias '>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://www.solarpowermexico.mx/'
@@ -270,9 +274,6 @@ export function Home() {
               </div>
             </a>
           </Col>
-        </Row>
-       
-        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://hfmexico.mx/ecomondo/'
@@ -292,6 +293,9 @@ export function Home() {
               </div>
             </a>
           </Col>
+        </Row>
+
+        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://viveelvino.igeco.mx/'
@@ -383,6 +387,7 @@ export function Home() {
             </a>
           </Col>
         </Row>
+
         {/* <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a
