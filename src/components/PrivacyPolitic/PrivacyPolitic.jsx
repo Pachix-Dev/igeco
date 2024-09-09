@@ -1,53 +1,64 @@
 import { Container } from 'react-bootstrap'
+import { useTranslation } from 'react-i18next'
 
-export function PrivacyPolitic () {
+export function PrivacyPolitic() {
+  const { t } = useTranslation()
+
   return (
     <Container className='pt-5'>
-      <i>Deutsche Messe</i><br /><br />
-      <h4>AVISO DE PRIVACIDAD</h4>
-      <p>
-        <strong>Italian German Exhibition Company Mexico, S.A. de C.V.</strong><br /><br />
-
-        En virtud de que <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO, SA DE CV,</strong> es responsable de recabar y tratar datos personales que ha obtenido y/o que llegue a obtener, hemos implementado mecanismos para garantizar la seguridad de sus datos personales (los “<strong>Datos Personales</strong>”); por tal razón, hacemos el siguiente:<br /><br />
-
-        <strong><u>Aviso de Privacidad</u></strong><br /><br />
-
-        Con fundamento en los artículos 15, 16 y demás aplicables de la Ley Federal de Protección de Datos Personales en Posesión de Particulares (la “<strong><u>Ley</u></strong>”) y su reglamento hacemos de su conocimiento que <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO, SA DE CV (ITALIAN GERMAN EXHIBITION COMPANY MEXICO)</strong> con domicilio en Blvd. Francisco Villa 102-piso 14, Oriental, 37510, León, Gto., México, teléfono 52 (55) 70 28 33 35 y página web <a href='https://igeco.mx/' target='_blank' rel='noreferrer'>igeco.mx</a>, es responsable de recabar, del uso y la protección de Datos Personales, en cumplimiento de los principios de licitud, calidad, consentimiento, información, finalidad, lealtad, proporcionalidad y responsabilidad.<br /><br />
-
-        <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO,</strong> recaba Datos Personales directamente e indirectamente a través de: nuestras oficinas corporativas, nuestros prestadores de servicios independientes, y/o los registros electrónicos para asistir a alguno de nuestros eventos a través de la página de internet de cada evento, o bien, son referidos por alguno de los expositores.<br /><br />
-
-        Los Datos Personales que se recaban, dependiendo de cualquiera de los mecanismos de recolección pueden ser: nombre completo; cargo, empresa, cámara u organismo al que pertenece, correo electrónico; domicilio; teléfono fijo; teléfono celular; fecha de nacimiento; género; alta de Registro Federal de Contribuyentes y/o cualquier modificación; clave del Registro Federal de Contribuyentes; comprobante de domicilio; presentación de servicios que ofrece; referencias personales; identificación oficial; datos de cuentas bancarias exclusivamente para efectuar pagos (institución bancaria, número de cuenta, clabe interbancaria y sucursal), así como así como el presupuesto destinado a la compra de bienes y/o servicios del sector del evento.<br /><br />
-
-        Los fines primarios aplicables a los Datos Personales (los “<strong><u>Fines Primarios</u></strong>”) serán: Su registro al evento en el que comparta sus datos, confirmar su registro y asistencia al mismo, organizar el evento, informarle cualquier cambio del evento, gestionar su pago y emitir los recibos de pago o comprobantes fiscales que correspondan, evaluarlo como prestador de servicios independientes; identificarlo como prestador de servicios independientes; elaborar documentos, contratos, convenios, facturas, recibos y documentación relacionada con la relación civil contractual; almacenamiento; evaluar la calidad de sus servicios; y, dar cumplimiento a términos y condiciones que hayamos establecido con usted.<br /><br />
-
-        Los fines secundarios aplicables a los Datos Personales (los “<strong><u>Fines Secundarios</u></strong>”) serán: estadística; mercadeo, prospección, para proporcionarle información de futuros eventos.<br /><br />
-
-        Los Datos Personales podrán ser transferidos a sociedades subsidiarias, filiales, afiliadas y/o aliadas comerciales, dentro de territorio nacional, para los mismos fines citados. Asimismo, podrá ser transmitida a las personas que a continuación se mencionan: asesores en materia legal, contable y/o fiscal, autoridades hacendarias y, cualquier otra que sea necesaria para cumplir los fines de la relación contractual que nos une.<br /><br />
-
-        <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO,</strong> podrá transferir los Datos Personales (nombres y apellidos, cargo, empresa, teléfono de contacto y correo electrónico) del Titular a algún patrocinador y/o expositor del evento con el objeto de que éstos promuevan o vendan los productos o servicios que interesan al Titular. El Titular consiente dicha transferencia cuando permite que algún patrocinador y/o expositor tenga acceso al código de barras del documento que le es proporcionado por <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> para ingresar a una exposición o evento. En caso de que el Titular no desee que sus datos personales sean transferidos a algún patrocinador y/o expositor deberá negar el acceso al código de barras del documento referido.<br /><br />
-
-        Respecto de la información recabada de expositores y visitantes en nuestras encuestas de satisfacción que es recabada por <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO,</strong> su uso es únicamente interno e indicativo, incluyendo el presupuesto destinado a la compra de bienes y/o servicios del sector del evento, que es utilizado para obtener la proyección estimada de ventas que podría generar el evento. El proporcionar esta información es optativo para el Titular, por lo que podrá abstenerse de proporcionarlo, manifestándolo directamente al encuestador o en la plataforma electrónica que la contenga<br /><br />
-
-        La confidencialidad de los Datos Personales está garantizada y los mismos están protegidos por medidas de seguridad administrativas, técnicas y/o físicas, para evitar daño, pérdida, alteración, destrucción, uso, acceso o divulgación indebida, por ejemplo los Datos Personales se encuentran en una base de datos interna, cuya administración es a través de claves de acceso que cambian en forma periódica y cuyo acceso está restringido a personas autorizadas; convenios de confidencialidad con su personal, entre otras.<br /><br />
-
-        Usted tiene derecho al acceso, rectificación y cancelación de sus Datos Personales, a oponerse al tratamiento de los mismos o a revocar su consentimiento (en su conjunto “Derechos ARCO”). Para ello, es necesario que usted o su representante legal presente una solicitud por escrito del ejercicio del Derecho ARCO dirigida al área de atención a vendedores de  <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO,</strong> responsable de la protección de Datos Personales, ubicado en el domicilio antes indicado, o bien, se comunique vía correo electrónico con el área de atención a vendedores de <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO a info@igeco.mx </strong>(“Solicitud”); debiendo recibir en ambos casos acuse de recibo para que <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> quede vinculado al respecto. Dicha Solicitud deberá contener la siguiente información: (a) nombre (s) y apellidos de usted y su representante, en su caso; (b) dirección de correo electrónico para recibir notificaciones; (c) copia simple de la identificación oficial con fotografía de usted o su representante, en su caso, la representación legal de la persona que realiza la Solicitud a su nombre; (d) existencia de la representación, mediante instrumento público o carta poder firmada ante dos testigos, en su caso; (e) descripción clara y precisa de los Datos Personales respecto de los cuales busque ejercer algunos de los Derecho ARCO; (f) cualquier elemento o documento que facilite la localización de sus Datos Personales; y (g) firma de la Solicitud de usted o su representante.<br /><br />
-
-        En caso de solicitar el ejercicio del derecho de: (a) Rectificación, deberá indicar las modificaciones a realizar y proporcionar la documentación que acredite y sustente la petición; y (b) Acceso; entonces,<strong> ITALIAN GERMAN EXHIBITION COMPANY MEXICO </strong>proporcionará los Datos Personales vía correo electrónico y/o cita en las oficinas corporativas, a elección de <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO.</strong><br /><br />
-
-        En un plazo máximo de 20 días hábiles contados a partir del acuse de recepción de la Solicitud, se deberá atender la petición e informársele sobre la procedencia o improcedencia de la misma mediante un aviso enviado al correo electrónico proporcionado para recibir la notificación. En caso de resultar procedente su Solicitud, <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> deberá hacerla efectiva dentro de los 15 días hábiles siguientes, contados a partir de la recepción vía correo electrónico de la procedencia de su Solicitud.<br /><br />
-
-        En adición, al procedimiento para el ejercicio del Derecho ARCO y la revocación de consentimiento, <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong>  tiene habilitado un “Listado de Exclusión” propio que nos permite limitar el uso y divulgación de Datos Personales, para tales efectos basta nos envié, la solicitud de ser excluidos, la cual deberá contener: (a) nombre(s) y apellidos; y (b) cuenta de correo electrónico para responder su solicitud, esta deberá ser dirigida al área de atención a vendedores ITALIAN GERMAN EXHIBITION COMPANY MEXICO  al siguiente correo electrónico info@igeco.mx, debiendo recibir acuse de recibo para que <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> quede vinculado al respecto. El acuse de recibo, incluye constancia de inscripción al “Listado de Exclusión”.<br /><br />
-
-        Toda la documentación deberá ser enviada en formato de archivo PDF, legible y completa, para que <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> pueda atender la Solicitud.<br /><br />
-
-        Si usted considera que su derecho de protección de datos personales ha sido lesionado por <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> o presume que en el tratamiento de sus datos personales existe alguna violación a las disposiciones previstas en la Ley, podrá interponer su queja o denuncia correspondiente ante el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI), dentro de los 15 días siguientes a la fecha en que reciba la respuesta de <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong>  o a partir de que concluya el plazo de 20 días contados a partir de la fecha del acuse de recepción de la Solicitud de ejercicio de derechos.
-        <br /><br />
-        <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> podrá actualizar el Aviso de Privacidad para reflejar prácticas nuevas o diferentes. Cuando se efectúen cambios sustanciales, te los comunicaremos a través del correo electrónico que proporcionaste a<strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO.</strong><br /><br />
-
-        Con la presente, el TITULAR (USTED) reconoce que ha leído el presente Aviso de Privacidad y comprende que el tratamiento de sus Datos Personales es necesario para establecer y mantener una relación contractual. Autoriza el tratamiento, uso y transferencia de tus Datos Personales conforme a lo expresado en este Aviso de Privacidad, durante el periodo que dure la relación contractual con <strong>ITALIAN GERMAN EXHIBITION COMPANY MEXICO</strong> y subsecuentemente de conformidad con los términos de las leyes aplicables, tomando en cuenta que dicho tratamiento es necesario para la continuidad del negocio.<br /><br />
-
-        <strong>Fecha de última modificación junio 2023.</strong>
-      </p>
+      <i>Deutsche Messe</i>
+      <br />
+      <br />
+      <h4>{t('privacy.text')}</h4>
+      <div>
+        <strong>Italian German Exhibition Company Mexico, S.A. de C.V.</strong>
+        <br />
+        <br />
+        <span dangerouslySetInnerHTML={{ __html: t('privacy.text_1') }} />
+        <br />
+        <br />
+        <strong>
+          <u>{t('privacy.text')}</u>
+        </strong>
+        <br />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_3') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_4') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_5') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_6') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_7') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_8') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_9') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_10') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_11') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_12') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_13') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_14') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_15') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_16') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_17') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_18') }} />
+        <br />
+        <p dangerouslySetInnerHTML={{ __html: t('privacy.text_19') }} />
+        <br />
+        <br />
+        <strong>{t('privacy.text_20')}</strong>
+      </div>
     </Container>
   )
 }
