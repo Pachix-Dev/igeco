@@ -229,7 +229,6 @@ export function Home() {
             </a>
           </Col>
         </Row>
-       
         <Row className='mt-5 wrapper-igeco-ferias '>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
@@ -270,7 +269,6 @@ export function Home() {
             </a>
           </Col>
         </Row>
-
         <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
@@ -338,7 +336,6 @@ export function Home() {
             </a>
           </Col>
         </Row>
-        
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a href='https://www.macsexpo.mx/' target='_blank' rel='noreferrer'>
