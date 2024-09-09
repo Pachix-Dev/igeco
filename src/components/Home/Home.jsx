@@ -169,30 +169,6 @@ export function Home() {
         </Carousel>
 
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
-          {/* <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://foro-nearshoring.igeco.mx'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img
-                  src='/img/bg_nearshoring.webp'
-                  alt='Nearshoring'
-                  className='w-100'
-                  style={{ objectFit: 'cover', height: '300px' }}
-                />
-                <div className='p-3'>
-                  <h3 className='fw-bold'> FORO NEARSHORING </h3>
-                  <p>5 de septiembre 2024 </p>
-                  <p>Teatro Mateo Herrera, León, Gto.</p>
-                </div>
-              </div>
-            </a>
-          </Col> */}
-        </Row>
-
-        <Row className='mt-5 wrapper-igeco-ferias m-2'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://foro-electromovilidad.igeco.mx'
@@ -340,6 +316,27 @@ export function Home() {
               </div>
             </a>
           </Col>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://foro-nearshoring.igeco.mx'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img
+                  src='/img/bg_nearshoring.webp'
+                  alt='Nearshoring'
+                  className='w-100'
+                  style={{ objectFit: 'cover', height: '300px' }}
+                />
+                <div className='p-3'>
+                  <h3 className='fw-bold'> FORO NEARSHORING </h3>
+                  <p>{t('home.coming-soon')} 2025</p>
+                  {/* <p>Teatro Mateo Herrera, León, Gto.</p> */}
+                </div>
+              </div>
+            </a>
+          </Col>
         </Row>
         
         <Row className='mt-5 wrapper-igeco-ferias m-2'>
@@ -405,6 +402,8 @@ export function Home() {
             </a>
           </Col>
         </Row> */}
+
+
       </Container>
       <Container className='mt-5 p-5 bg-secondary'>
         <h1 className='text-center mb-5 text-light'>Videos</h1>
