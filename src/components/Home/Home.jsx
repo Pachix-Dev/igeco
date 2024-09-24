@@ -168,28 +168,7 @@ export function Home() {
               </Carousel.Item> */}
         </Carousel>
 
-        <Row className='mt-5 wrapper-igeco-ferias m-2'>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://foro-electromovilidad.igeco.mx'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img
-                  src='/img/bg_electromovilidad.webp'
-                  alt='electromovilidad'
-                  className='w-100'
-                  style={{ objectFit: 'cover', height: '300px' }}
-                />
-                <div className='p-3'>
-                  <h4 className='fw-bold'> FORO ELECTROMOVILIDAD </h4>
-                  <p>23 de septiembre 2024 </p>
-                  <p>Teatro Mateo Herrera, León, Gto.</p>
-                </div>
-              </div>
-            </a>
-          </Col>
+        <Row className='mt-5 wrapper-igeco-ferias m-2'>          
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://industrialtransformation.mx/'
@@ -268,9 +247,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://viveelvino.igeco.mx/'
               target='_blank'
@@ -287,6 +264,8 @@ export function Home() {
               </div>
             </a>
           </Col>
+        </Row>
+        <Row className='mt-5 wrapper-igeco-ferias'>        
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://re-plus-yucatan.igeco.mx/'
@@ -331,6 +310,28 @@ export function Home() {
                   <h3 className='fw-bold'> FORO NEARSHORING </h3>
                   <p>{t('home.coming-soon')} 2025</p>
                   {/* <p>Teatro Mateo Herrera, León, Gto.</p> */}
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://foro-electromovilidad.igeco.mx'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img
+                  src='/img/bg_electromovilidad.webp'
+                  alt='electromovilidad'
+                  className='w-100'
+                  style={{ objectFit: 'cover', height: '300px' }}
+                />
+                <div className='p-3'>
+                  <h4 className='fw-bold'> FORO ELECTROMOVILIDAD </h4>
+                  <p>{t('home.coming-soon')} 2025</p>
+                  {/* <p>23 de septiembre 2024 </p>
+                  <p>Teatro Mateo Herrera, León, Gto.</p> */}
                 </div>
               </div>
             </a>
