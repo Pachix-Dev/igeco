@@ -168,46 +168,6 @@ export function Home() {
               </Carousel.Item> */}
         </Carousel>
 
-        <Row className='mt-5 wrapper-igeco-ferias m-2'>          
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://industrialtransformation.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
-                <div className='p-3'>
-                  <h3 className='fw-bold'> ITM 2024</h3>
-                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
-                  Léon, Guanajuato
-                  <br /> Poliforum
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://amofexpo.igeco.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/amof_v4.webp' alt='ITM' className='w-100' />
-                <div className='p-3'>
-                  <h3 className='fw-bold'> AMERICAS' MOBILITY OF THE FUTURE</h3>
-                  <p>
-                    {t('home.mobility')}
-                    <br />
-                    Léon, Guanajuato
-                    <br />
-                    Poliforum
-                  </p>
-                </div>
-              </div>
-            </a>
-          </Col>
-        </Row>
         <Row className='mt-5 wrapper-igeco-ferias '>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
@@ -247,7 +207,7 @@ export function Home() {
               </div>
             </a>
           </Col>
-            <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://viveelvino.igeco.mx/'
               target='_blank'
@@ -265,7 +225,7 @@ export function Home() {
             </a>
           </Col>
         </Row>
-        <Row className='mt-5 wrapper-igeco-ferias'>        
+        <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
               href='https://re-plus-yucatan.igeco.mx/'
@@ -284,7 +244,7 @@ export function Home() {
                     RE+ PENÍNSULA DE YUCATÁN {t('home.congress')}
                   </h4>
                   <p>
-                  <p>{t('home.coming-soon')} 2025</p>
+                    <p>{t('home.coming-soon')} 2025</p>
                     Cic Yucatán
                     <br />
                     Merida, Yucatán, México
@@ -382,7 +342,45 @@ export function Home() {
             </a>
           </Col>
         </Row>
-
+        <Row className='mt-5 wrapper-igeco-ferias m-2'>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://industrialtransformation.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img src='/img/Logo_ITM.webp' alt='ITM' className='w-100' />
+                <div className='p-3'>
+                  <h3 className='fw-bold'> ITM 2025</h3>
+                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
+                  Centro Citibanamex, CDMX
+                </div>
+              </div>
+            </a>
+          </Col>
+          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
+            <a
+              href='https://amofexpo.igeco.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div>
+                <img
+                  src='/amof2025logo.webp'
+                  alt='AMOF'
+                  className='w-100 p-4'
+                />
+                <div className='p-3'>
+                  <h3 className='fw-bold'>
+                    {' '}
+                    AMERICAS' MOBILITY OF THE FUTURE 2025
+                  </h3>
+                </div>
+              </div>
+            </a>
+          </Col>
+        </Row>
         {/* <Row className='mt-5 wrapper-igeco-ferias'>
           <Col md={3} className='mt-4 mx-auto'>
             <a
@@ -400,8 +398,6 @@ export function Home() {
             </a>
           </Col>
         </Row> */}
-
-
       </Container>
       <Container className='mt-5 p-5 bg-secondary'>
         <h1 className='text-center mb-5 text-light'>Videos</h1>
