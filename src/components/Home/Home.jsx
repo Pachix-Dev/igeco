@@ -21,24 +21,16 @@ export function Home() {
               rel='noreferrer'
             >
               {i18n.language === 'en' ? (
-                <video
+                <img
                   width='100%'
                   height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  src='/ITM-2024-ENG.mp4'
+                  src='/itm_2025_primerov2.webp'
                 />
               ) : (
-                <video
+                <img
                   width='100%'
                   height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  src='/ITM-2024-ESP.mp4'
+                  src='/itm_2025_primerov2.webp'
                 />
               )}
             </a>
@@ -49,11 +41,7 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/bannerAmof.webp'
-                className='w-100'
-                alt='MOBILITY'
-              />
+              <img src='/amof_2025_bg.webp' className='w-100' alt='MOBILITY' />
             </a>
           </Carousel.Item>
           <Carousel.Item>
