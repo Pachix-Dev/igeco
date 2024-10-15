@@ -364,6 +364,8 @@ export function Home() {
                     {' '}
                     AMERICAS' MOBILITY OF THE FUTURE 2025
                   </h3>
+                  <p dangerouslySetInnerHTML={{ __html: t('home.itm') }} />
+                  Centro Citibanamex, CDMX
                 </div>
               </div>
             </a>
