@@ -9,7 +9,11 @@ export function Home() {
     <>
       <Container className='piechart-wrapper'>
         <p className='text-end pinechart-button'>
-          <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
+          <a
+            href='https://cuatro-cero.com.mx/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img src='/img/CuatroCero.jpg' alt='cuatro cero' width={120} />
           </a>
         </p>
