@@ -89,13 +89,6 @@ export function Menu() {
                         Industrial Transformation Mexico
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        href='https://viveelvino.igeco.mx/'
-                        target='_blank'
-                        onClick={handleClose}
-                      >
-                        Vive el Vino
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
                         href='https://amofexpo.igeco.mx/'
                         target='_blank'
                         onClick={handleClose}
