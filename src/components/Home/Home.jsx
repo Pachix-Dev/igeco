@@ -74,27 +74,6 @@ export function Home() {
               />
             </a>
           </Carousel.Item>
-          <Carousel.Item>
-            <a
-              href='https://viveelvino.igeco.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              {i18n.language === 'es' ? (
-                <img
-                  src='/img/keyVisual_viveVino2025_es.webp'
-                  className='w-100'
-                  alt='vive el vino'
-                />
-              ) : (
-                <img
-                  src='/img/keyVisual_viveVino2025_en.webp'
-                  className='w-100'
-                  alt='vive el vino'
-                />
-              )}
-            </a>
-          </Carousel.Item>
           {/* <Carousel.Item>
             <a
               href='https://www.hfmexico.mx/MEMIndustrial/'
@@ -195,23 +174,6 @@ export function Home() {
                 <div className='p-2'>
                   <h3 className='fw-bold'> ECOMONDO MÉXICO</h3>
                   <p dangerouslySetInnerHTML={{ __html: t('home.ecomondo') }} />
-                </div>
-              </div>
-            </a>
-          </Col>
-          <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
-            <a
-              href='https://viveelvino.igeco.mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div>
-                <img src='/img/VIVE-EL-VINO.webp' alt='ITM' className='w-100' />
-                <div className='p-3'>
-                  <h3 className='fw-bold'> VIVE EL VINO </h3>
-                  <p
-                    dangerouslySetInnerHTML={{ __html: t('home.viveelvino') }}
-                  />
                 </div>
               </div>
             </a>
