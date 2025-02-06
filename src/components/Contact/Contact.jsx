@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 
-export function Contact () {
+export function Contact() {
   return (
     <>
       <Container>
@@ -8,11 +8,15 @@ export function Contact () {
         <div className='text-center'>
           <h4>IGECO</h4>
           <p className='text-center'>
-            Blvd. Francisco Villa 102, piso 14<br />
-            Col. Oriental, 37510<br />
-            León Guanajuato, México<br />
-            info@hfmexico.mx<br />
-            www.hfmexico.mx
+            Blvd. Francisco Villa 102, piso 14
+            <br />
+            Col. Oriental, 37510
+            <br />
+            León Guanajuato, México
+            <br />
+            info@igeco.mx
+            <br />
+            www.igeco.mx
           </p>
         </div>
       </Container>
