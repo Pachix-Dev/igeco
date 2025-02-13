@@ -50,7 +50,7 @@ export function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <a
-              href='https://www.hfmexico.mx/solarpowermexico/es/'
+              href='https://re-plus-mexico.com.mx/'
               target='_blank'
               rel='noreferrer'
             >
@@ -142,7 +142,7 @@ export function Home() {
         <Row className='mt-5 wrapper-igeco-ferias '>
           <Col md={3} className='mt-4 mx-auto shadow-lg rounded p-0'>
             <a
-              href='https://www.solarpowermexico.mx/'
+              href='https://re-plus-mexico.com.mx/'
               target='_blank'
               rel='noreferrer'
             >
