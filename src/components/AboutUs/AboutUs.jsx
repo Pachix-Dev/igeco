@@ -44,24 +44,6 @@ export function AboutUs() {
           </Col>
           <Col md={3}>
             <img
-              src='/david_montaudon.webp'
-              className='w-100 rounded-circle object-fit-cover object-position-top'
-              height={300}
-            />
-            <strong>David Montaudon</strong>
-            <p>Director MARCOM</p>
-          </Col>
-          <Col md={3}>
-            <img
-              src='/jean.webp'
-              className='w-100 rounded-circle object-fit-cover object-position-top'
-              height={300}
-            />
-            <strong>Jean Christian Macias</strong>
-            <p>Director Vive el Vino y Messe Events</p>
-          </Col>
-          <Col md={3}>
-            <img
               src='/damian-arias.webp'
               className='w-100 rounded-circle object-fit-cover object-position-top'
               height={300}

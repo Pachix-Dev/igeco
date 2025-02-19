@@ -68,7 +68,7 @@ export function Menu() {
                         MEM Industrial
                       </NavDropdown.Item> */}
                       <NavDropdown.Item
-                        href='https://www.hfmexico.mx/solarpowermexico/es/'
+                        href='https://re-plus-mexico.com.mx/'
                         target='_blank'
                         onClick={handleClose}
                       >
