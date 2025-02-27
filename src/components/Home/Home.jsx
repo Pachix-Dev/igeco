@@ -45,7 +45,11 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img src='/amof_2025_bg.webp' className='w-100' alt='MOBILITY' />
+              {i18n.language === 'en' ? (
+                <img width='100%' height='auto' src='/amof_bf_2025_eng.webp' />
+              ) : (
+                <img width='100%' height='auto' src='/amof_2025_bg.webp' />
+              )}
             </a>
           </Carousel.Item>
           <Carousel.Item>
