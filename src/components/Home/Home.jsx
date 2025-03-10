@@ -59,7 +59,7 @@ export function Home() {
               rel='noreferrer'
             >
               <img
-                src='/img/keyvisua_re+_2025.webp'
+                src='/img/banner_replus_2026.webp'
                 className='w-100'
                 alt='MOBILITY'
               />
@@ -72,7 +72,7 @@ export function Home() {
               rel='noreferrer'
             >
               <img
-                src='/img/keyvisual_eco_2025.webp'
+                src='/img/banner_ecomondo_2026.webp'
                 className='w-100'
                 alt='MOBILITY'
               />
@@ -151,11 +151,7 @@ export function Home() {
               rel='noreferrer'
             >
               <div>
-                <img
-                  src='/img/re+mexico_logo_v2.webp'
-                  alt='Solar'
-                  className='w-100'
-                />
+                <img src='/img/replus2026.webp' alt='Solar' className='w-100' />
                 <div className='p-2'>
                   <h3 className='fw-bold'> RE+ MÉXICO </h3>
                   <p dangerouslySetInnerHTML={{ __html: t('home.solar') }} />
@@ -171,7 +167,7 @@ export function Home() {
             >
               <div>
                 <img
-                  src='/img/ecomondo2025.webp'
+                  src='/img/ecomondo2026.webp'
                   alt='Ecomondo'
                   className='w-100'
                 />
