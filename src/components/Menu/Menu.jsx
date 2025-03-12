@@ -152,25 +152,25 @@ export function Menu() {
                             RiminiWellness
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.ginnasticainfestarimini.it/'
+                            href='https://www.sigep.it/en'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            Ginnastica in Festa
+                            SIGEP
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.meetingrimini.org/en/'
+                            href='https://www.vicenzaoro.com/en'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            Meeting Rimini
+                            VICENZA ORO
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href='https://www.alfiobardolla.com/'
+                            href='https://en.ttgexpo.it/'
                             target='_blank'
                             onClick={handleClose}
                           >
-                            Alfio Bardolla WAKE UP CALL
+                            TTG TRAVEL EXPERIENCE
                           </NavDropdown.Item>
                         </div>
                         <div className='italianexhibition_link'>
