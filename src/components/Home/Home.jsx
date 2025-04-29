@@ -58,11 +58,21 @@ export function Home() {
               target='_blank'
               rel='noreferrer'
             >
-              <img
-                src='/img/banner_replus_2026.webp'
-                className='w-100'
-                alt='MOBILITY'
-              />
+              {i18n.language === 'en' ? (
+                <img
+                  width='100%'
+                  height='auto'
+                  src='/img/replusbg_eng.webp'
+                  alt='replus'
+                />
+              ) : (
+                <img
+                  width='100%'
+                  height='auto'
+                  src='/img/replusbg.webp'
+                  alt='replus'
+                />
+              )}
             </a>
           </Carousel.Item>
           <Carousel.Item>
