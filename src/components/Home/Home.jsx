@@ -198,8 +198,8 @@ export function Home() {
                     RE+ PENÍNSULA DE YUCATÁN {t('home.congress')}
                   </h4>
                   <p>
-                    <p>{t('home.coming-soon')} 2025</p>
-                    Cic Yucatán
+                    <p>{t('home.yucatan')} 2025</p>
+                    CIC Yucatán
                     <br />
                     Merida, Yucatán, México
                   </p>
