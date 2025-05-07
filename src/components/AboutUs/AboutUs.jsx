@@ -42,15 +42,6 @@ export function AboutUs() {
             <strong>Azul Ogazón</strong>
             <p>Deputy Manager IGECO</p>
           </Col>
-          <Col md={3}>
-            <img
-              src='/damian-arias.webp'
-              className='w-100 rounded-circle object-fit-cover object-position-top'
-              height={300}
-            />
-            <strong>Damian Arias Ramirez</strong>
-            <p>Director de AMOF</p>
-          </Col>
         </Row>
       </Container>
     </>
